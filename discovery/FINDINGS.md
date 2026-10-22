@@ -19,7 +19,7 @@ We built the routable road network that Overture itself defines: drivable segmen
 
 | | Lowest wildfire-hazard quartile (Q1) | Highest quartile (Q4) | Q4 vs Q1 |
 |---|---|---|---|
-| Residents living in a single-egress pocket | 3.28% (2.96–3.59) | **10.15% (9.68–10.65)**, about 1.0 M people | **3.10x (2.35–4.63)**, +6.9 pp; 3.31x (2.29–4.87) adjusted for region × rural class; 1.71x (1.23–2.52) also within density terciles. County-block CIs |
+| Residents living in a single-egress pocket | 3.28% (2.96–3.59) | **10.15% (9.68–10.65)**, about 1.0 M people | **3.10x (2.35–4.63)**, +6.9 pp; 3.31x (2.29–4.87) adjusted for region × rural class; 5.25x (3.82–7.27) between tracts of the same county; 1.71x (1.23–2.52) also within density terciles. County-block CIs |
 | Same, quartiles defined within each region | 2.90% | 10.87% | **3.75x (3.35–4.20)** |
 | Residents of whole settlements with exactly one exit | 0.013% | 0.62% (0.51–0.74) | ~48x (lower bound 15x); 4.2x (3.1–5.8) vs Q1–Q3 |
 | Care homes behind one segment | 0.94% | **4.56%** | 4.9x |
@@ -83,7 +83,7 @@ Those are the people who most need two ways out (high wildfire hazard). They are
 - **Not one of the five scorecard metrics.** Transport length, building count, facilities, establishments and the composite are per-tract counts or lengths. All are unchanged by how roads connect. A tract can score a perfect transport ratio while 1,100 of its buildings hang off one segment. The pocket metric reads Overture's own topology (`connectors`), which no scorecard component inspects.
 - **A new unit of analysis.** The pocket (exact single-egress set) and the settlement (max-flow exit count) are network-defined, sub-tract communities. They are named with Overture's own POIs and road names rather than with predefined strata. The predefined strata are used only to *compare* them.
 - **A product-level bias.** Choosing the drivable `roads` file over `roads-unfiltered` silently removes second exits for 14.1% (13.2–15.1%) of pocket residents, and more in fire country (17.5%). It also creates 9,138 of the 9,283 interior "routing islands", those that reconnect through service or track roads (§4.7).
-- **Related work.** StreetLight Data's 2019 study ranked the 100 US towns under 40,000 residents whose daily trips depend most on one main exit ([StreetLight Data](https://www.streetlightdata.com/evacuation-data); [KQED, 14 California communities](https://kqed.org/science/1946668/data-pinpoints-14-california-communities-with-most-limited-emergency-escape-routes)). It used proprietary smartphone and vehicle GPS trips, worked at town level and, by its CEO's account, left natural hazards out. Ours uses open data only, works at the level of sub-tract pockets in every settlement size, stratifies by wildfire hazard, and shows that the map product itself (the drivable-layer filter) hides exits.
+- **Related work.** StreetLight Data's 2019 study ranked the 100 US towns under 40,000 residents whose daily trips depend most on one main exit ([StreetLight Data, 26 Aug 2019](https://www.streetlightdata.com/bloomberg-streetlight-data-evacuation-risk-study/); [KQED, 14 California communities](https://kqed.org/science/1946668/data-pinpoints-14-california-communities-with-most-limited-emergency-escape-routes)). It used proprietary smartphone and vehicle GPS trips, worked at town level and, by its CEO's account, left natural hazards out. Ours uses open data only, works at the level of sub-tract pockets in every settlement size, stratifies by wildfire hazard, and shows that the map product itself (the drivable-layer filter) hides exits.
 
 ---
 
@@ -152,9 +152,12 @@ Region rows are rounded; their residents sum to 105,806.
 | Still single-egress with service/track added, MH region × rural class | 3.32 (2.25–5.15) | 3.46 (2.36–5.26) |
 | MH, region × rural class × density tercile (26 strata, 18 with Q1 and Q4) | 1.71 (1.23–2.52) | 1.83 (1.28–2.73) |
 | Poisson, region × rural class × density tercile | 1.68 (1.16–2.70) | 1.79 (1.29–2.78) |
+| MH, within county (325 strata, 56 with Q1 and Q4) | 5.25 (3.82–7.27) | 5.64 (4.73–7.06) |
+| MH, within county × rural class (516 strata, 42 with Q1 and Q4) | 5.18 (3.78–6.99) | 5.40 (4.46–6.84) |
 
 - **Region and rural class do not explain the gradient: 3.10x crude, 3.31x adjusted.** Adjusting for rural class alone gives 2.93x. Every lower limit in the first six rows is above 2.
 - **Urban form explains about half of it, not all.** Density terciles are residents per km² of land (strata `ALAND`), cut within each region. Comparing tracts of the same region, rural class and density tercile, Q4 still has 1.71x (1.23–2.52) the pocket share of Q1. Density partly lies on the causal path: wildland-fringe subdivisions are low-density by design, so this row is a lower bound on the hazard gradient rather than a better estimate of it.
+- **Not a between-county contrast.** Comparing only tracts of the same county, Q4 has 5.25x (3.82–7.27) the pocket share of Q1; within county × rural class, 5.18x (3.78–6.99). The 56 counties that have both Q1 and Q4 tracts hold 70% of Q1 and 55% of Q4 residents, in all five regions. The ratio is larger than the crude one because inside a county the low-hazard tracts are the urban core and the high-hazard ones its fringe, so this row does not control for density (the row above does). It rules out one explanation: the gradient does not come from some counties mapping or building roads differently. No Poisson fit here (one dummy per county is too slow to refit 2000 times).
 - **County blocks widen the interval, mostly because of Houston.** Harris County holds 30.9% of pooled-Q1 residents. Resampling only south-central-tx counties gives 2.42–4.41 for the crude ratio. Resampling only one other region's counties gives at most 2.80–3.52 (maricopa-az).
 - **The adjusted ratio rests on urban-classified strata.** They carry 95% of the MH weight; south-central-tx urban alone carries 68%. Rural strata hold only 20 Q1 tracts, and northern-ca has none (§4.4). Outside eastern-ok, the stratum ratios (pooled quartiles) run from 1.56x (eastern-wa rural) to 6.33x (maricopa-az urban). In eastern-ok the gradient vanishes once rural and urban tracts are separated: 1.00x rural, 1.08x urban (0.46–2.39). With within-region quartiles its urban stratum gives 1.68x (0.68–8.67), and no rural tract falls in its Q1. Its region-level 2.34x (§4.2) therefore mostly reflects the rural–urban contrast.
 
@@ -508,10 +511,11 @@ python discovery/10_figures.py                        # figures in discovery/fig
 python discovery/11_fire_history.py                   # tract-level wildfire history (§4.13)
 python discovery/12_action_list.py                    # per-county action list (§5b)
 python discovery/13_region_maps.py                    # overview maps (§1)
-python discovery/14_adjusted.py                       # adjusted Q4/Q1 ratio, county-block bootstrap (§4.3; ~35 s)
+python discovery/14_adjusted.py                       # adjusted and within-county Q4/Q1 ratios, county-block bootstrap (§4.3; ~90 s)
 python discovery/15_full_action_list.py               # full action list and per-county totals (§5b; ~2 s)
 python discovery/17_acs_evacuation.py --offline       # ACS no-vehicle / limited-English / 65+ (§4.11; ~35 s)
 python discovery/18_official_check.py --offline       # FHWA HPMS 2024 / ADOT ATIS / USFS ownership check (§4.10)
+python discovery/verify_findings.py                   # recomputes the headline numbers from discovery/out: PASS 26/26 (~3 s)
 ```
 
 The cached Overpass responses are in `discovery/external/osm_raw/`. To re-query Overpass instead, run `07_external_osm.py` without `--offline` (network needed; results then reflect the OSM state at query time). The cached ACS responses are in `discovery/external/acs/`. Without `--offline`, `17_acs_evacuation.py` downloads only the batches that are missing (5.6 MB for all 49).

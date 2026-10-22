@@ -12,12 +12,22 @@ counts, so it cannot see this.
 
 - **It is concentrated where the wildfire hazard is.** 10.2% of residents in the highest wildfire-hazard quartile
   live in such pockets, against 3.3% in the lowest: **3.10x**. Adjusted for region and rural class it is 3.31x
-  (county-block CI 2.29–4.87). Within the same population-density tercile it is still 1.71x (1.23–2.52).
+  (county-block CI 2.29–4.87). Comparing only tracts of the same county it is 5.25x (3.82–7.27), so it is not a
+  between-county effect. Within the same population-density tercile it is still 1.71x (1.23–2.52).
 - **Checked against two outside sources.** In current OpenStreetMap, 29 of 33 random high-hazard pockets (88%, CI
   72–95%) have no public second road either. FHWA's public-road inventory (HPMS 2024) agrees in 31 of 33.
+- **Fires that happened, not only a hazard map.** Within the same hazard quartile, pocket residents live 1.15x
+  (1.09–1.22) more often in tracts that actually burned since 2015 (NIFC / MTBS perimeters).
 - **Who is exposed.** Pocket residents are older: 65+ share 1.12x, about 486,000 people.
 - **What to do.** `discovery/out/action_list_full.csv` lists 5,095 high-hazard single-exit pockets county by county
   (about 825,000 residents in 195 counties). For California, this is the list SB 99 asks counties to produce.
+
+## Check every headline number in seconds
+
+```bash
+pip install pandas pyarrow
+python discovery/verify_findings.py      # recomputes the 26 headline numbers from discovery/out: PASS 26/26
+```
 
 ## Reproduce
 

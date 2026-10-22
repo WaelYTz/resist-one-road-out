@@ -33,7 +33,10 @@ METRICS = {"pocket50": "est_pop_pocket50", "pocket50_noext": "est_pop_pocket50_n
 QUARTILES = {"whp_q": "pooled quartiles", "whp_q_region": "within-region quartiles"}
 ADJ = {"none": [], "region": ["region"], "rural": ["ur"], "region x rural": ["region", "ur"],
        # urban-form check: residents per km2 of land (strata ALAND), terciles within region
-       "region x rural x density": ["region", "ur", "dens3"]}
+       "region x rural x density": ["region", "ur", "dens3"],
+       # within-county comparisons: is the gradient only a between-county contrast? (counties lacking Q1 or Q4
+       # tracts drop out of the MH sum)
+       "county": ["county"], "county x rural": ["county", "ur"]}
 Q = ["Q1", "Q2", "Q3", "Q4"]
 
 
@@ -131,13 +134,16 @@ def main():
                     reps["crude"][b] = crude_rr(Yb[b], Tb[b], q_of)[0]
                     if alab != "none":
                         reps["MH"][b] = mh_rr(Yb[b], Tb[b], s_of, q_of, n_s)
-                        reps["Poisson"][b] = poisson_rr(Yb[b], Tb[b], s_of, q_of, n_s)
+                        # the Poisson fit has one dummy per stratum: with county strata (~200-400) it is too slow
+                        # to refit 2000 times, so county adjustments report MH only
+                        reps["Poisson"][b] = np.nan if alab.startswith("county") else \
+                            poisson_rr(Yb[b], Tb[b], s_of, q_of, n_s)
                 n_ok = int(((t0[q_of == 3] > 0) & (t0[q_of == 0] > 0)).sum())
                 base = dict(metric=mname, quartiles=qlab, adjusted_for=alab, ci="county-block bootstrap",
                             n_strata=n_s, n_strata_with_q1_and_q4=n_ok, rate_q4=r4, rate_q1=r1,
                             n_tracts=len(d), n_counties=len(counties), B=B, seed=SEED)
                 for k, v in est.items():
-                    if (alab == "none") != (k == "crude"):
+                    if (alab == "none") != (k == "crude") or (alab.startswith("county") and k == "Poisson"):
                         continue
                     lo, hi = np.nanpercentile(reps[k], [2.5, 97.5])
                     rows.append(dict(base, method=k, ratio=v, ci_lo=lo, ci_hi=hi))
