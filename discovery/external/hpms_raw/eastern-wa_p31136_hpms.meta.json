@@ -1,0 +1,15 @@
+{
+ "kind": "hpms",
+ "url": "https://geo.dot.gov/server/rest/services/Hosted/HPMS_FULL_WA_2024/FeatureServer/0/query",
+ "first_query": "https://geo.dot.gov/server/rest/services/Hosted/HPMS_FULL_WA_2024/FeatureServer/0/query?geometry=-117.670973%2C47.557401%2C-117.640902%2C47.580630&geometryType=esriGeometryEnvelope&inSR=4326&spatialRel=esriSpatialRelIntersects&outFields=objectid%2Cdata_year%2Croute_id%2Croutename%2Cf_system%2Cownership%2Cfacility_type%2Cstructure_type%2Ccounty_id%2Cis_restricted&returnGeometry=true&outSR=5070&maxAllowableOffset=2&geometryPrecision=0&orderByFields=objectid&resultOffset=0&resultRecordCount=2000&f=json",
+ "pages": 1,
+ "n_features": 35,
+ "wire_bytes": 3001,
+ "retrieved_utc": "2026-10-17T15:21:32+00:00",
+ "bbox": [
+  47.55740055459666,
+  -117.6709730816508,
+  47.58063048650743,
+  -117.64090171236347
+ ]
+}

@@ -1,0 +1,211 @@
+01:02:33 sample frame (WHP-Q4 pockets >= 50 bldg, excluding named): 5957
+01:02:43 graph d: nodes 760668 edges 889953 boundary-nodes 1454 bridges 174519 core nodes 561737 (0.738) pockets 74219
+01:02:44 eastern-ok pocket 1316 (Whitehorn Cove (Wagoner County)): a  flows pub/full/win 1/1/1 
+01:02:45 eastern-ok pocket 3189 (Basin Road (Mannford)): a  flows pub/full/win 1/1/1 
+01:02:54 graph d: nodes 731430 edges 856707 boundary-nodes 1851 bridges 156601 core nodes 543546 (0.743) pockets 61491
+01:02:54 maricopa-az pocket 3509 (Rimrock / Lake Montezuma): b service flows pub/full/win 2/2/3 
+01:02:55 maricopa-az pocket 785 (Bagdad): b service flows pub/full/win 2/3/6 
+01:02:58 graph d: nodes 305423 edges 344022 boundary-nodes 5029 bridges 89942 core nodes 204757 (0.670) pockets 32169
+01:02:58 northern-ca pocket 395 (Rancho Tehama): a  flows pub/full/win 1/1/1 
+01:02:59 northern-ca pocket 159 (Lake California): c gate/barrier;track flows pub/full/win 1/2/2 
+01:03:17   overpass error (northern-ca_p990, attempt 0, https://overpass-api.de/api/interpreter): HTTP Error 504: Gateway Timeout
+01:03:38   fetched northern-ca_p990: 129,195 B from https://overpass-api.de/api/interpreter, osm_base 2026-10-15T00:02:39Z
+01:03:40 northern-ca pocket 990 (Olympic Valley): b service flows pub/full/win 2/3/5 
+01:03:56   fetched northern-ca_p5811: 90,396 B from https://overpass-api.de/api/interpreter, osm_base 2026-10-15T00:02:39Z
+01:03:59 northern-ca pocket 5811 (Westwood Avenue (Redding)): a  flows pub/full/win 1/1/1 
+01:04:40 graph d: nodes 2741215 edges 3262198 boundary-nodes 5510 bridges 553652 core nodes 2081957 (0.760) pockets 223137
+01:04:43 south-central-tx pocket 12819 (Sargent (FM 457)): c track flows pub/full/win 1/3/10 
+01:04:43 south-central-tx pocket 1390 (Port O'Connor): c gate/barrier;track flows pub/full/win 1/2/2 
+01:04:48 graph d: nodes 247929 edges 282570 boundary-nodes 3027 bridges 60108 core nodes 182512 (0.736) pockets 19898
+01:04:51   fetched eastern-wa_p28: 325,106 B from https://overpass-api.de/api/interpreter, osm_base 2026-10-15T00:03:41Z
+01:04:54 eastern-wa pocket 28 (Icicle Road): c private/no-access flows pub/full/win 1/3/3 
+01:04:54 eastern-wa pocket 14874 (Stirrup Road (Leavenworth)): a  flows pub/full/win 1/1/1 
+01:04:54 eastern-wa pocket 266 (Casassa Road (Cle Elum)): c private/no-access;track flows pub/full/win 1/2/2 
+01:04:55 eastern-wa pocket 960 (Salmon la Sac Road): c track flows pub/full/win 1/2/2 
+01:04:56   fetched eastern-wa_p47: 38,261 B from https://overpass-api.de/api/interpreter, osm_base 2026-10-15T00:03:41Z
+01:04:59 eastern-wa pocket 47 (Seven Bays (Davenport)): b service flows pub/full/win 2/2/3 
+01:04:59 eastern-wa pocket 337 (Crescent Bar (Quincy)): a  flows pub/full/win 1/1/1 
+01:05:13 graph d: nodes 731430 edges 856707 boundary-nodes 1851 bridges 156601 core nodes 543546 (0.743) pockets 61491
+01:05:23   overpass error (maricopa-az_p138, attempt 0, https://overpass-api.de/api/interpreter): HTTP Error 504: Gateway Timeout
+01:05:46   fetched maricopa-az_p138: 55,310 B from https://overpass-api.de/api/interpreter, osm_base 2026-10-15T00:04:41Z
+01:05:48 maricopa-az pocket 138 (random): a  flows pub/full/win 0/1/1 
+01:05:52   fetched maricopa-az_p1729: 11,988 B from https://overpass-api.de/api/interpreter, osm_base 2026-10-15T00:04:41Z
+01:05:54 maricopa-az pocket 1729 (random): c track flows pub/full/win 1/2/3 
+01:06:05   overpass error (maricopa-az_p3094, attempt 0, https://overpass-api.de/api/interpreter): HTTP Error 429: Too Many Requests
+01:06:24   fetched maricopa-az_p3094: 70,794 B from https://overpass-api.de/api/interpreter, osm_base 2026-10-15T00:04:41Z
+01:06:26 maricopa-az pocket 3094 (random): c gate/barrier;private/no-access flows pub/full/win 0/2/2 
+01:06:38   overpass error (maricopa-az_p3640, attempt 0, https://overpass-api.de/api/interpreter): HTTP Error 504: Gateway Timeout
+01:06:49   fetched maricopa-az_p3640: 71,288 B from https://overpass-api.de/api/interpreter, osm_base 2026-10-15T00:05:47Z
+01:06:52 maricopa-az pocket 3640 (random): a  flows pub/full/win 1/1/1 
+01:06:55   fetched maricopa-az_p4863: 171,248 B from https://overpass-api.de/api/interpreter, osm_base 2026-10-15T00:05:47Z
+01:06:57 maricopa-az pocket 4863 (random): a  flows pub/full/win 1/1/1 
+01:07:07   overpass error (maricopa-az_p4996, attempt 0, https://overpass-api.de/api/interpreter): HTTP Error 429: Too Many Requests
+01:07:19   fetched maricopa-az_p4996: 41,859 B from https://overpass-api.de/api/interpreter, osm_base 2026-10-15T00:05:47Z
+01:07:21 maricopa-az pocket 4996 (random): a  flows pub/full/win 1/1/1 
+01:07:25   fetched maricopa-az_p6026: 13,514 B from https://overpass-api.de/api/interpreter, osm_base 2026-10-15T00:05:47Z
+01:07:27 maricopa-az pocket 6026 (random): c track flows pub/full/win 1/2/3 
+01:07:39   overpass error (maricopa-az_p8396, attempt 0, https://overpass-api.de/api/interpreter): HTTP Error 429: Too Many Requests
+01:07:58   overpass error (maricopa-az_p8396, attempt 1, https://overpass-api.de/api/interpreter): HTTP Error 504: Gateway Timeout
+01:07:58 maricopa-az pocket 8396 (random): unresolved  flows pub/full/win None/None/None Overpass unavailable: overpass failed for maricopa-az_p8396: HTTP Error 504: Gateway Timeout
+01:07:59   fetched maricopa-az_p16136: 72,044 B from https://overpass-api.de/api/interpreter, osm_base 2026-10-15T00:06:42Z
+01:08:01 maricopa-az pocket 16136 (random): b topology flows pub/full/win 2/2/2 
+01:08:02   fetched maricopa-az_p24788: 56,942 B from https://overpass-api.de/api/interpreter, osm_base 2026-10-15T00:06:42Z
+01:08:04 maricopa-az pocket 24788 (random): a  flows pub/full/win 1/1/1 
+01:08:15   overpass error (maricopa-az_p25380, attempt 0, https://overpass-api.de/api/interpreter): HTTP Error 429: Too Many Requests
+01:08:36   fetched maricopa-az_p25380: 75,803 B from https://overpass-api.de/api/interpreter, osm_base 2026-10-15T00:06:42Z
+01:08:39 maricopa-az pocket 25380 (random): b service flows pub/full/win 2/4/4 
+01:08:47   fetched maricopa-az_p52551: 30,032 B from https://overpass-api.de/api/interpreter, osm_base 2026-10-15T00:06:42Z
+01:08:50 maricopa-az pocket 52551 (random): c private/no-access flows pub/full/win 1/2/2 
+01:09:00   overpass error (maricopa-az_p89510, attempt 0, https://overpass-api.de/api/interpreter): HTTP Error 429: Too Many Requests
+01:09:12   fetched maricopa-az_p89510: 64,973 B from https://overpass-api.de/api/interpreter, osm_base 2026-10-15T00:07:49Z
+01:09:14 maricopa-az pocket 89510 (random): a  flows pub/full/win 1/1/1 
+01:09:23   overpass error (maricopa-az_p305540, attempt 0, https://overpass-api.de/api/interpreter): HTTP Error 504: Gateway Timeout
+01:09:35   fetched maricopa-az_p305540: 23,202 B from https://overpass-api.de/api/interpreter, osm_base 2026-10-15T00:07:49Z
+01:09:37 maricopa-az pocket 305540 (random): a  flows pub/full/win 1/1/1 
+01:09:53   overpass error (maricopa-az_p326124, attempt 0, https://overpass-api.de/api/interpreter): HTTP Error 429: Too Many Requests
+01:10:05   fetched maricopa-az_p326124: 58,258 B from https://overpass-api.de/api/interpreter, osm_base 2026-10-15T00:08:46Z
+01:10:07 maricopa-az pocket 326124 (random): unresolved  flows pub/full/win 0/0/0 no OSM nodes matched (pocket 0, core 1021)
+01:10:12 graph d: nodes 305423 edges 344022 boundary-nodes 5029 bridges 89942 core nodes 204757 (0.670) pockets 32169
+01:10:14   fetched northern-ca_p533: 90,443 B from https://overpass-api.de/api/interpreter, osm_base 2026-10-15T00:08:46Z
+01:10:17 northern-ca pocket 533 (random): a  flows pub/full/win 1/1/1 
+01:10:27   overpass error (northern-ca_p4019, attempt 0, https://overpass-api.de/api/interpreter): HTTP Error 429: Too Many Requests
+01:10:50   overpass error (northern-ca_p4019, attempt 1, https://overpass-api.de/api/interpreter): HTTP Error 504: Gateway Timeout
+01:10:50 northern-ca pocket 4019 (random): unresolved  flows pub/full/win None/None/None Overpass unavailable: overpass failed for northern-ca_p4019: HTTP Error 504: Gateway Timeout
+01:10:57   fetched northern-ca_p4526: 90,723 B from https://overpass-api.de/api/interpreter, osm_base 2026-10-15T00:08:46Z
+01:10:59 northern-ca pocket 4526 (random): c gate/barrier;private/no-access;track flows pub/full/win 1/2/2 
+01:11:02   fetched northern-ca_p9066: 79,909 B from https://overpass-api.de/api/interpreter, osm_base 2026-10-15T00:09:48Z
+01:11:04 northern-ca pocket 9066 (random): a  flows pub/full/win 1/1/1 
+01:11:17   overpass error (northern-ca_p11216, attempt 0, https://overpass-api.de/api/interpreter): HTTP Error 429: Too Many Requests
+01:11:36   fetched northern-ca_p11216: 39,648 B from https://overpass-api.de/api/interpreter, osm_base 2026-10-15T00:09:48Z
+01:11:38 northern-ca pocket 11216 (random): a  flows pub/full/win 1/1/1 
+01:11:43   fetched northern-ca_p14404: 59,072 B from https://overpass-api.de/api/interpreter, osm_base 2026-10-15T00:10:42Z
+01:11:45 northern-ca pocket 14404 (random): b topology flows pub/full/win 2/2/2 
+01:11:56   overpass error (northern-ca_p23186, attempt 0, https://overpass-api.de/api/interpreter): HTTP Error 429: Too Many Requests
+01:12:08   fetched northern-ca_p23186: 85,080 B from https://overpass-api.de/api/interpreter, osm_base 2026-10-15T00:10:42Z
+01:12:10 northern-ca pocket 23186 (random): c gate/barrier;private/no-access flows pub/full/win 1/2/2 
+01:12:46 graph d: nodes 2741215 edges 3262198 boundary-nodes 5510 bridges 553652 core nodes 2081957 (0.760) pockets 223137
+01:12:49   fetched south-central-tx_p145: 31,682 B from https://overpass-api.de/api/interpreter, osm_base 2026-10-15T00:11:43Z
+01:12:51 south-central-tx pocket 145 (random): a  flows pub/full/win 1/1/1 
+01:12:52   fetched south-central-tx_p16743: 25,619 B from https://overpass-api.de/api/interpreter, osm_base 2026-10-15T00:11:43Z
+01:12:54 south-central-tx pocket 16743 (random): a  flows pub/full/win 1/1/1 
+01:13:04   overpass error (south-central-tx_p60284, attempt 0, https://overpass-api.de/api/interpreter): HTTP Error 429: Too Many Requests
+01:13:25   overpass error (south-central-tx_p60284, attempt 1, https://overpass-api.de/api/interpreter): HTTP Error 504: Gateway Timeout
+01:13:25 south-central-tx pocket 60284 (random): unresolved  flows pub/full/win None/None/None Overpass unavailable: overpass failed for south-central-tx_p60284: HTTP Error 504: Gateway Timeout
+01:13:26   fetched south-central-tx_p61105: 14,040 B from https://overpass-api.de/api/interpreter, osm_base 2026-10-15T00:11:43Z
+01:13:28 south-central-tx pocket 61105 (random): a  flows pub/full/win 1/1/1 
+01:13:42   fetched south-central-tx_p94420: 29,989 B from https://overpass-api.de/api/interpreter, osm_base 2026-10-15T00:11:43Z
+01:13:44 south-central-tx pocket 94420 (random): b service flows pub/full/win 2/2/2 
+01:13:57   overpass error (south-central-tx_p113090, attempt 0, https://overpass-api.de/api/interpreter): HTTP Error 429: Too Many Requests
+01:14:09   fetched south-central-tx_p113090: 18,823 B from https://overpass-api.de/api/interpreter, osm_base 2026-10-15T00:12:47Z
+01:14:11 south-central-tx pocket 113090 (random): a  flows pub/full/win 1/1/1 
+01:14:21   overpass error (south-central-tx_p203016, attempt 0, https://overpass-api.de/api/interpreter): HTTP Error 429: Too Many Requests
+01:14:53   fetched south-central-tx_p203016: 15,203 B from https://overpass-api.de/api/interpreter, osm_base 2026-10-15T00:13:47Z
+01:14:55 south-central-tx pocket 203016 (random): a  flows pub/full/win 1/1/1 
+01:15:18   fetched south-central-tx_p209145: 11,627 B from https://overpass-api.de/api/interpreter, osm_base 2026-10-15T00:13:47Z
+01:15:20 south-central-tx pocket 209145 (random): a  flows pub/full/win 1/1/1 
+01:15:54   overpass error (south-central-tx_p255238, attempt 0, https://overpass-api.de/api/interpreter): HTTP Error 504: Gateway Timeout
+01:16:40   overpass error (south-central-tx_p255238, attempt 1, https://overpass-api.de/api/interpreter): HTTP Error 504: Gateway Timeout
+01:16:40 south-central-tx pocket 255238 (random): unresolved  flows pub/full/win None/None/None Overpass unavailable: overpass failed for south-central-tx_p255238: HTTP Error 504: Gateway Timeout
+01:17:02   fetched south-central-tx_p305779: 5,804 B from https://overpass-api.de/api/interpreter, osm_base 2026-10-15T00:15:47Z
+01:17:04 south-central-tx pocket 305779 (random): a  flows pub/full/win 1/1/1 
+01:17:43   overpass error (south-central-tx_p397320, attempt 0, https://overpass-api.de/api/interpreter): HTTP Error 504: Gateway Timeout
+01:18:25   fetched south-central-tx_p397320: 47,180 B from https://overpass-api.de/api/interpreter, osm_base 2026-10-15T00:16:53Z
+01:18:27 south-central-tx pocket 397320 (random): a  flows pub/full/win 0/1/1 
+01:18:51   fetched south-central-tx_p467377: 24,029 B from https://overpass-api.de/api/interpreter, osm_base 2026-10-15T00:17:55Z
+01:18:53 south-central-tx pocket 467377 (random): a  flows pub/full/win 1/1/1 
+01:19:16   fetched south-central-tx_p582066: 12,954 B from https://overpass-api.de/api/interpreter, osm_base 2026-10-15T00:17:55Z
+01:19:18 south-central-tx pocket 582066 (random): a  flows pub/full/win 1/1/1 
+01:19:48   overpass error (south-central-tx_p636688, attempt 0, https://overpass-api.de/api/interpreter): HTTP Error 504: Gateway Timeout
+01:20:28   overpass error (south-central-tx_p636688, attempt 1, https://overpass-api.de/api/interpreter): HTTP Error 504: Gateway Timeout
+01:20:28 south-central-tx pocket 636688 (random): unresolved  flows pub/full/win None/None/None Overpass unavailable: overpass failed for south-central-tx_p636688: HTTP Error 504: Gateway Timeout
+01:20:51   fetched south-central-tx_p705932: 36,850 B from https://overpass-api.de/api/interpreter, osm_base 2026-10-15T00:19:50Z
+01:20:53 south-central-tx pocket 705932 (random): a  flows pub/full/win 1/1/1 
+01:21:16   fetched south-central-tx_p829158: 31,285 B from https://overpass-api.de/api/interpreter, osm_base 2026-10-15T00:19:50Z
+01:21:18 south-central-tx pocket 829158 (random): a  flows pub/full/win 1/1/1 
+01:21:26 graph d: nodes 247929 edges 282570 boundary-nodes 3027 bridges 60108 core nodes 182512 (0.736) pockets 19898
+01:21:58   overpass error (eastern-wa_p26895, attempt 0, https://overpass-api.de/api/interpreter): HTTP Error 504: Gateway Timeout
+01:22:31   fetched eastern-wa_p26895: 15,626 B from https://overpass-api.de/api/interpreter, osm_base 2026-10-15T00:20:58Z
+01:22:58   fetched eastern-wa_p26895: 115,181 B from https://overpass-api.de/api/interpreter, osm_base 2026-10-15T00:20:58Z
+01:23:00 eastern-wa pocket 26895 (random): c track flows pub/full/win 1/2/2 
+01:23:31   overpass error (eastern-wa_p31136, attempt 0, https://overpass-api.de/api/interpreter): HTTP Error 504: Gateway Timeout
+01:24:14   overpass error (eastern-wa_p31136, attempt 1, https://overpass-api.de/api/interpreter): HTTP Error 504: Gateway Timeout
+01:24:14 eastern-wa pocket 31136 (random): unresolved  flows pub/full/win None/None/None Overpass unavailable: overpass failed for eastern-wa_p31136: HTTP Error 504: Gateway Timeout
+       sample                            label            region        GEOID  n_bldg                  egress_road   osm_class                          osm_subclass  flow_public  flow_full   link_highway                     link_restrictions  link_gap_m                                                                                                 note
+0       named  Whitehorn Cove (Wagoner County)        eastern-ok  40145030201    1934          Whitehorn Cove Road           a                                                1.0        1.0            NaN                                   NaN         NaN                                                                                                     
+1       named            Basin Road (Mannford)        eastern-ok  40037020706    1252                   Basin Road           a                                                1.0        1.0            NaN                                   NaN         NaN                                                                                                     
+2       named         Rimrock / Lake Montezuma       maricopa-az  04025001605    1654       North Montezuma Avenue           b                               service          2.0        2.0        service                                              49.7                                                                                                     
+3       named                           Bagdad       maricopa-az  04025001300    1311      Hillside-Bagdad Highway           b                               service          2.0        3.0        service                                             314.1                                                                                                     
+4       named                    Rancho Tehama       northern-ca  06103000300    1100           Rancho Tehama Road           a                                                1.0        1.0            NaN                                   NaN         NaN                                                                                                     
+5       named                  Lake California       northern-ca  06103000201    1441        Lake California Drive           c                    gate/barrier;track          1.0        2.0          track                    gate/barrier;track      3540.9                                                                                                     
+6       named                   Olympic Valley       northern-ca  06061022014     827          Olympic Valley Road           b                               service          2.0        3.0        service                                             151.1                                                                                                     
+7       named        Westwood Avenue (Redding)       northern-ca  06089011002     802              Westwood Avenue           a                                                1.0        1.0            NaN                                   NaN         NaN                                                                                                     
+8       named                 Sargent (FM 457)  south-central-tx  48321730503    2797      Farm-to-Market Road 457           c                                 track          1.0        3.0          track                                 track      1276.4                                                                                                     
+9       named                    Port O'Connor  south-central-tx  48057000501    2970       State Highway 185 East           c                    gate/barrier;track          1.0        2.0  service;track                    gate/barrier;track      7979.6                                                                                                     
+10      named                      Icicle Road        eastern-wa  53007960201     372                  Icicle Road           c                     private/no-access          1.0        3.0        service                     private/no-access       261.4                                                                                                     
+11      named       Stirrup Road (Leavenworth)        eastern-wa  53007960202     355                 Stirrup Road           a                                                1.0        1.0            NaN                                   NaN         NaN                                                                                                     
+12      named          Casassa Road (Cle Elum)        eastern-wa  53037975201     436                 Casassa Road           c               private/no-access;track          1.0        2.0          track               private/no-access;track      7070.1                                                                                                     
+13      named               Salmon la Sac Road        eastern-wa  53037975101     434           Salmon la Sac Road           c                                 track          1.0        2.0          track                                 track      6960.3                                                                                                     
+14      named           Seven Bays (Davenport)        eastern-wa  53043960200     497         Seven Bays Road East           b                               service          2.0        2.0        service                                             499.2                                                                                                     
+15      named            Crescent Bar (Quincy)        eastern-wa  53025010500     657  Crescent Bar Road Northwest           a                                                1.0        1.0            NaN                                   NaN         NaN                                                                                                     
+16  random_q4                                        maricopa-az  04019004035     289                          NaN           a                                                0.0        1.0            NaN                                   NaN         NaN                                                                                                     
+17  random_q4                                        maricopa-az  04013040541      76           North 253rd Avenue           c                                 track          1.0        2.0          track                                 track       789.7                                                                                                     
+18  random_q4                                        maricopa-az  04013420105      74          North Atwood Circle           c        gate/barrier;private/no-access          0.0        2.0                       gate/barrier;private/no-access         0.0                                                                                                     
+19  random_q4                                        maricopa-az  04019004619      75   West Linda Vista Boulevard           a                                                1.0        1.0            NaN                                   NaN         NaN                                                                                                     
+20  random_q4                                        maricopa-az  04013040539     210             Jack Burden Road           a                                                1.0        1.0            NaN                                   NaN         NaN                                                                                                     
+21  random_q4                                        maricopa-az  04003000400      86          North San Pedro Way           a                                                1.0        1.0            NaN                                   NaN         NaN                                                                                                     
+22  random_q4                                        maricopa-az  04001970502      69             County Road 3161           c                                 track          1.0        2.0          track                                 track      4083.1                                                                                                     
+23  random_q4                                        maricopa-az  04019002906      74       East Camp Lowell Drive  unresolved                                                NaN        NaN            NaN                                   NaN         NaN         Overpass unavailable: overpass failed for maricopa-az_p8396: HTTP Error 504: Gateway Timeout
+24  random_q4                                        maricopa-az  04013030402      91            North 48th Street           b                              topology          2.0        2.0                                                              0.0                                                                                                     
+25  random_q4                                        maricopa-az  04013061053      95         West La Ventilla Way           a                                                1.0        1.0            NaN                                   NaN         NaN                                                                                                     
+26  random_q4                                        maricopa-az  04019004422      60       South Lost Starr Drive           b                               service          2.0        4.0        service                                            1584.7                                                                                                     
+27  random_q4                                        maricopa-az  04025001701     107                   Kelli Lane           c                     private/no-access          1.0        2.0        service                     private/no-access        92.7                                                                                                     
+28  random_q4                                        maricopa-az  04013216841      58         North La Senda Drive           a                                                1.0        1.0            NaN                                   NaN         NaN                                                                                                     
+29  random_q4                                        maricopa-az  04025001601      53             Doug's Park Road           a                                                1.0        1.0            NaN                                   NaN         NaN                                                                                                     
+30  random_q4                                        maricopa-az  04013611300      62            North 23rd Avenue  unresolved                                                0.0        0.0            NaN                                   NaN         NaN                                                           no OSM nodes matched (pocket 0, core 1021)
+31  random_q4                                        northern-ca  06057000105      97           Buck Mountain Road           a                                                1.0        1.0            NaN                                   NaN         NaN                                                                                                     
+32  random_q4                                        northern-ca  06057000504     142                Eskaton Drive  unresolved                                                NaN        NaN            NaN                                   NaN         NaN         Overpass unavailable: overpass failed for northern-ca_p4019: HTTP Error 504: Gateway Timeout
+33  random_q4                                        northern-ca  06061020608      87           Ashley Creek Drive           c  gate/barrier;private/no-access;track          1.0        2.0          track  gate/barrier;private/no-access;track       215.9                                                                                                     
+34  random_q4                                        northern-ca  06061022002     136      Washington Irving Drive           a                                                1.0        1.0            NaN                                   NaN         NaN                                                                                                     
+35  random_q4                                        northern-ca  06007002601     129            Feathervale Drive           a                                                1.0        1.0            NaN                                   NaN         NaN                                                                                                     
+36  random_q4                                        northern-ca  06061021902      58            Meadow Vista Road           b                              topology          2.0        2.0                                                              0.0                                                                                                     
+37  random_q4                                        northern-ca  06061021502      66           Quail Meadow Drive           c        gate/barrier;private/no-access          1.0        2.0        service        gate/barrier;private/no-access       139.1                                                                                                     
+38  random_q4                                   south-central-tx  48503950402      59            Rosser Ranch Road           a                                                1.0        1.0            NaN                                   NaN         NaN                                                                                                     
+39  random_q4                                   south-central-tx  48471790401     258            Timberwilde Drive           a                                                1.0        1.0            NaN                                   NaN         NaN                                                                                                     
+40  random_q4                                   south-central-tx  48339692701      56              McAllister Road  unresolved                                                NaN        NaN            NaN                                   NaN         NaN   Overpass unavailable: overpass failed for south-central-tx_p60284: HTTP Error 504: Gateway Timeout
+41  random_q4                                   south-central-tx  48217960501      52             County Road 1250           a                                                1.0        1.0            NaN                                   NaN         NaN                                                                                                     
+42  random_q4                                   south-central-tx  48339692803      89                  Lucas Drive           b                               service          2.0        2.0        service                                             116.6                                                                                                     
+43  random_q4                                   south-central-tx  48161000101     106               Sheadoah Drive           a                                                1.0        1.0            NaN                                   NaN         NaN                                                                                                     
+44  random_q4                                   south-central-tx  48121020313      62                  Palmer Lane           a                                                1.0        1.0            NaN                                   NaN         NaN                                                                                                     
+45  random_q4                                   south-central-tx  48503950401      56                  Canyon Road           a                                                1.0        1.0            NaN                                   NaN         NaN                                                                                                     
+46  random_q4                                   south-central-tx  48085031202      77                 Crowell Lane  unresolved                                                NaN        NaN            NaN                                   NaN         NaN  Overpass unavailable: overpass failed for south-central-tx_p255238: HTTP Error 504: Gateway Timeout
+47  random_q4                                   south-central-tx  48423001406      98        West Twin Lakes Drive           a                                                1.0        1.0            NaN                                   NaN         NaN                                                                                                     
+48  random_q4                                   south-central-tx  48097000701      66                  Hogan Drive           a                                                0.0        1.0            NaN                                   NaN         NaN                                                                                                     
+49  random_q4                                   south-central-tx  48201555303      72            Waterbridge Drive           a                                                1.0        1.0            NaN                                   NaN         NaN                                                                                                     
+50  random_q4                                   south-central-tx  48423001912      67                  Cooper Road           a                                                1.0        1.0            NaN                                   NaN         NaN                                                                                                     
+51  random_q4                                   south-central-tx  48427950104      88                          NaN  unresolved                                                NaN        NaN            NaN                                   NaN         NaN  Overpass unavailable: overpass failed for south-central-tx_p636688: HTTP Error 504: Gateway Timeout
+52  random_q4                                   south-central-tx  48423001806      70             County Road 2347           a                                                1.0        1.0            NaN                                   NaN         NaN                                                                                                     
+53  random_q4                                   south-central-tx  48339693701      63        Coral Cove Pass Drive           a                                                1.0        1.0            NaN                                   NaN         NaN                                                                                                     
+54  random_q4                                         eastern-wa  53007960202      56                  Conrad Road           c                                 track          1.0        2.0          track                                 track      1891.3                                                                                                     
+55  random_q4                                         eastern-wa  53063013900      79          South Freeman Drive  unresolved                                                NaN        NaN            NaN                                   NaN         NaN         Overpass unavailable: overpass failed for eastern-wa_p31136: HTTP Error 504: Gateway Timeout
+                                     sample      osm_class   n  of  share  ci_lo  ci_hi
+0                                     named              a   6  16  0.375  0.185  0.614
+1                                     named              b   4  16  0.250  0.102  0.495
+2                                     named              c   6  16  0.375  0.185  0.614
+3                                     named     unresolved   0  16  0.000  0.000  0.194
+4                                     named  not_attempted   0  16  0.000  0.000  0.194
+5                     named (resolved only)              a   6  16  0.375  0.185  0.614
+6                     named (resolved only)              b   4  16  0.250  0.102  0.495
+7                     named (resolved only)              c   6  16  0.375  0.185  0.614
+8                                 random_q4              a  22  40  0.550  0.398  0.693
+9                                 random_q4              b   4  40  0.100  0.040  0.231
+10                                random_q4              c   7  40  0.175  0.087  0.320
+11                                random_q4     unresolved   7  40  0.175  0.087  0.320
+12                                random_q4  not_attempted   0  40  0.000 -0.000  0.088
+13                random_q4 (resolved only)              a  22  33  0.667  0.496  0.802
+14                random_q4 (resolved only)              b   4  33  0.121  0.048  0.273
+15                random_q4 (resolved only)              c   7  33  0.212  0.107  0.378
+16  random_q4 (resolved, resident-weighted)              a  22  33  0.748  0.554  0.889
+17  random_q4 (resolved, resident-weighted)              b   4  33  0.099  0.020  0.220
+18  random_q4 (resolved, resident-weighted)              c   7  33  0.154  0.049  0.310
+total wire bytes downloaded this run: 2280980
+OSM_DONE

@@ -1,0 +1,35 @@
+16:47:28 northern-ca tracts 591
+16:47:30 drivable segments 191836 components 710 edge segs 3238 mid-outside 147
+16:47:30 giant n_seg 187978 (0.9799) island comps 604 island segs 1335 edge non-giant comps 105
+16:47:31 graph e: segs 422253 comps 743 missing drivable ids 0
+16:47:32 graph a: segs 479596 comps 1283 missing drivable ids 0
+16:47:32 extended comps holding islands 17 of which edge 4
+16:47:32 island categories: {'class_filter': 575, 'ext_edge': 16, 'disconnected': 11, 'footpath_only': 2}
+16:47:53 buildings 1164724 unassigned to tract 1
+16:48:03   nearest 1000000/1164724
+16:48:05   nearest 1164724/1164724
+16:48:09 northern-ca summary: {'n_bldg': 1164723.0, 'n_bldg_island': 2887.0, 'n_bldg_island_strict': 27.0, 'n_bldg_far150': 80787.0, 'n_bldg_edgecomp': 10759.0, 'est_pop_island': 5739.0, 'est_pop_island_strict': 63.0, 'pop_total': 2458891.0} elapsed 41s
+16:48:10 eastern-ok tracts 1192
+16:48:13 drivable segments 520550 components 2140 edge segs 1206 mid-outside 110
+16:48:13 giant n_seg 516586 (0.9924) island comps 2086 island segs 3777 edge non-giant comps 53
+16:48:15 graph e: segs 988065 comps 333 missing drivable ids 0
+16:48:17 graph a: segs 1037555 comps 1872 missing drivable ids 0
+16:48:17 extended comps holding islands 10 of which edge 0
+16:48:18 island categories: {'class_filter': 2076, 'disconnected': 8, 'footpath_only': 2}
+16:48:37 buildings 2551694 unassigned to tract 0
+16:48:46   nearest 1000000/2551694
+16:48:54   nearest 2000000/2551694
+16:49:00   nearest 2551694/2551694
+16:49:08 eastern-ok summary: {'n_bldg': 2551694.0, 'n_bldg_island': 7450.0, 'n_bldg_island_strict': 24.0, 'n_bldg_far150': 236170.0, 'n_bldg_edgecomp': 318.0, 'est_pop_island': 8727.0, 'est_pop_island_strict': 8.0, 'pop_total': 3926466.0} elapsed 58s
+16:49:10 maricopa-az tracts 1593
+16:49:13 drivable segments 494492 components 1010 edge segs 1117 mid-outside 20
+16:49:13 giant n_seg 491035 (0.9930) island comps 910 island segs 2410 edge non-giant comps 99
+16:49:15 graph e: segs 973264 comps 814 missing drivable ids 0
+16:49:17 graph a: segs 1170165 comps 3125 missing drivable ids 0
+16:49:17 extended comps holding islands 28 of which edge 1
+16:49:18 island categories: {'class_filter': 881, 'disconnected': 13, 'footpath_only': 8, 'near_miss': 6, 'ext_edge': 2}
+16:49:53 buildings 2908224 unassigned to tract 0
+16:50:02   nearest 1000000/2908224
+16:50:12   nearest 2000000/2908224
+16:50:22   nearest 2908224/2908224
+16:50:30 maricopa-az summary: {'n_bldg': 2908224.0, 'n_bldg_island': 7803.0, 'n_bldg_island_strict': 31.0, 'n_bldg_far150': 142576.0, 'n_bldg_edgecomp': 3321.0, 'est_pop_island': 14044.0, 'est_pop_island_strict': 49.0, 'pop_total': 6606494.0} elapsed 81s

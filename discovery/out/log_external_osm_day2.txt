@@ -1,0 +1,57 @@
+08:46:29 sample frame (WHP-Q4 pockets >= 50 bldg, excluding named): 5957
+08:46:41 graph d: nodes 760668 edges 889953 boundary-nodes 1454 bridges 174519 core nodes 561737 (0.738) pockets 74219
+08:46:41 eastern-ok pocket 1316 (Whitehorn Cove (Wagoner County)): a  flows pub/full/win 1/1/1 
+08:46:41 eastern-ok pocket 3189 (Basin Road (Mannford)): a  flows pub/full/win 1/1/1 
+08:46:48 graph d: nodes 731430 edges 856707 boundary-nodes 1851 bridges 156601 core nodes 543546 (0.743) pockets 61491
+08:46:49 maricopa-az pocket 3509 (Rimrock / Lake Montezuma): b service flows pub/full/win 2/2/3 
+08:46:49 maricopa-az pocket 785 (Bagdad): b service flows pub/full/win 2/3/6 
+08:46:52 graph d: nodes 305423 edges 344022 boundary-nodes 5029 bridges 89942 core nodes 204757 (0.670) pockets 32169
+08:46:53 northern-ca pocket 395 (Rancho Tehama): a  flows pub/full/win 1/1/1 
+08:46:54 northern-ca pocket 159 (Lake California): c gate/barrier;track flows pub/full/win 1/2/2 
+08:46:55 northern-ca pocket 990 (Olympic Valley): b service flows pub/full/win 2/3/5 
+08:47:01   overpass error (northern-ca_p5811, attempt 0, https://overpass-api.de/api/interpreter): HTTP Error 504: Gateway Timeout
+08:48:11   overpass error (northern-ca_p5811, attempt 1, https://overpass.kumi.systems/api/interpreter): The read operation timed out
+08:48:42   overpass error (northern-ca_p5811, attempt 2, https://overpass-api.de/api/interpreter): HTTP Error 504: Gateway Timeout
+08:50:22   overpass error (northern-ca_p5811, attempt 3, https://overpass.private.coffee/api/interpreter): The read operation timed out
+08:50:22   northern-ca_p5811: splitting window into 2 x 2 tiles
+08:50:36   overpass error (northern-ca_p5811_t1, attempt 0, https://overpass-api.de/api/interpreter): HTTP Error 504: Gateway Timeout
+08:51:46   overpass error (northern-ca_p5811_t1, attempt 1, https://overpass.kumi.systems/api/interpreter): The read operation timed out
+08:52:14   overpass error (northern-ca_p5811_t1, attempt 2, https://overpass-api.de/api/interpreter): HTTP Error 504: Gateway Timeout
+08:53:54   overpass error (northern-ca_p5811_t1, attempt 3, https://overpass.private.coffee/api/interpreter): The read operation timed out
+08:53:54 northern-ca pocket 5811 (Westwood Avenue (Redding)): unresolved  flows pub/full/win None/None/None Overpass unavailable: overpass failed for northern-ca_p5811_t1: The read operation timed out
+08:54:52 graph d: nodes 2741215 edges 3262198 boundary-nodes 5510 bridges 553652 core nodes 2081957 (0.760) pockets 223137
+08:54:58 south-central-tx pocket 12819 (Sargent (FM 457)): c track flows pub/full/win 1/3/10 
+08:55:07   overpass error (south-central-tx_p1390, attempt 0, https://overpass-api.de/api/interpreter): HTTP Error 504: Gateway Timeout
+08:56:17   overpass error (south-central-tx_p1390, attempt 1, https://overpass.kumi.systems/api/interpreter): The read operation timed out
+08:56:47 south-central-tx pocket 1390 (Port O'Connor): c gate/barrier;track flows pub/full/win 1/2/2 
+08:56:53 graph d: nodes 247929 edges 282570 boundary-nodes 3027 bridges 60108 core nodes 182512 (0.736) pockets 19898
+08:57:05   overpass error (eastern-wa_p28, attempt 0, https://overpass-api.de/api/interpreter): HTTP Error 504: Gateway Timeout
+08:58:15   overpass error (eastern-wa_p28, attempt 1, https://overpass.kumi.systems/api/interpreter): The read operation timed out
+08:58:50   overpass error (eastern-wa_p28, attempt 2, https://overpass-api.de/api/interpreter): HTTP Error 504: Gateway Timeout
+09:00:30   overpass error (eastern-wa_p28, attempt 3, https://overpass.private.coffee/api/interpreter): The read operation timed out
+09:00:30   eastern-wa_p28: splitting window into 2 x 2 tiles
+09:00:41   overpass error (eastern-wa_p28_t1, attempt 0, https://overpass-api.de/api/interpreter): HTTP Error 504: Gateway Timeout
+09:01:51   overpass error (eastern-wa_p28_t1, attempt 1, https://overpass.kumi.systems/api/interpreter): The read operation timed out
+09:02:29   overpass error (eastern-wa_p28_t1, attempt 2, https://overpass-api.de/api/interpreter): HTTP Error 504: Gateway Timeout
+09:04:10   overpass error (eastern-wa_p28_t1, attempt 3, https://overpass.private.coffee/api/interpreter): The read operation timed out
+09:04:10 eastern-wa pocket 28 (Icicle Road): unresolved  flows pub/full/win None/None/None Overpass unavailable: overpass failed for eastern-wa_p28_t1: The read operation timed out
+09:04:14 eastern-wa pocket 14874 (Stirrup Road (Leavenworth)): a  flows pub/full/win 1/1/1 
+09:04:25 eastern-wa pocket 266 (Casassa Road (Cle Elum)): c private/no-access;track flows pub/full/win 1/2/2 
+09:04:39   overpass error (eastern-wa_p960, attempt 0, https://overpass-api.de/api/interpreter): HTTP Error 504: Gateway Timeout
+09:05:49   overpass error (eastern-wa_p960, attempt 1, https://overpass.kumi.systems/api/interpreter): The read operation timed out
+09:06:26 eastern-wa pocket 960 (Salmon la Sac Road): c track flows pub/full/win 1/2/2 
+09:06:34   overpass error (eastern-wa_p47, attempt 0, https://overpass-api.de/api/interpreter): HTTP Error 504: Gateway Timeout
+09:07:44   overpass error (eastern-wa_p47, attempt 1, https://overpass.kumi.systems/api/interpreter): The read operation timed out
+09:08:17   overpass error (eastern-wa_p47, attempt 2, https://overpass-api.de/api/interpreter): HTTP Error 504: Gateway Timeout
+09:09:57   overpass error (eastern-wa_p47, attempt 3, https://overpass.private.coffee/api/interpreter): The read operation timed out
+09:09:57   eastern-wa_p47: splitting window into 2 x 2 tiles
+09:10:05   overpass error (eastern-wa_p47_t0, attempt 0, https://overpass-api.de/api/interpreter): HTTP Error 504: Gateway Timeout
+09:11:16   overpass error (eastern-wa_p47_t0, attempt 1, https://overpass.kumi.systems/api/interpreter): The read operation timed out
+09:11:43   overpass error (eastern-wa_p47_t0, attempt 2, https://overpass-api.de/api/interpreter): HTTP Error 504: Gateway Timeout
+09:13:23   overpass error (eastern-wa_p47_t0, attempt 3, https://overpass.private.coffee/api/interpreter): The read operation timed out
+09:13:23 eastern-wa pocket 47 (Seven Bays (Davenport)): unresolved  flows pub/full/win None/None/None Overpass unavailable: overpass failed for eastern-wa_p47_t0: The read operation timed out
+09:13:31   overpass error (eastern-wa_p337, attempt 0, https://overpass-api.de/api/interpreter): HTTP Error 504: Gateway Timeout
+09:14:41   overpass error (eastern-wa_p337, attempt 1, https://overpass.kumi.systems/api/interpreter): The read operation timed out
+09:15:10 eastern-wa pocket 337 (Crescent Bar (Quincy)): a  flows pub/full/win 1/1/1 
+09:15:17 graph d: nodes 731430 edges 856707 boundary-nodes 1851 bridges 156601 core nodes 543546 (0.743) pockets 61491
+09:15:32   overpass error (maricopa-az_p138, attempt 0, https://overpass-api.de/api/interpreter): HTTP Error 504: Gateway Timeout

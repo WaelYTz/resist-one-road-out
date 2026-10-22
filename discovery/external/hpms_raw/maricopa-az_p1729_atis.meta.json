@@ -1,0 +1,15 @@
+{
+ "kind": "atis",
+ "url": "https://services6.arcgis.com/clPWQMwZfdWn4MQZ/ArcGIS/rest/services/ADOT_ATIS_Public_view/FeatureServer/0/query",
+ "first_query": "https://services6.arcgis.com/clPWQMwZfdWn4MQZ/ArcGIS/rest/services/ADOT_ATIS_Public_view/FeatureServer/0/query?geometry=-112.621806%2C33.818080%2C-112.589517%2C33.842495&geometryType=esriGeometryEnvelope&inSR=4326&spatialRel=esriSpatialRelIntersects&outFields=OBJECTID%2CRouteID%2CRouteNameShort%2COwnership%2CMaintenance%2CJurisdiction%2CFunctionalSystem_Desc%2CCounty&returnGeometry=true&outSR=5070&maxAllowableOffset=2&geometryPrecision=0&orderByFields=OBJECTID&resultOffset=0&resultRecordCount=2000&f=json",
+ "pages": 1,
+ "n_features": 25,
+ "wire_bytes": 1678,
+ "retrieved_utc": "2026-10-17T15:17:39+00:00",
+ "bbox": [
+  33.818080075245554,
+  -112.62180634168934,
+  33.84249517345613,
+  -112.58951733534559
+ ]
+}

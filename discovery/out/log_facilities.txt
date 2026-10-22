@@ -1,0 +1,28 @@
+14:09:51 pooled WHP quartile cut points [ 6.45 25.47 71.41]
+14:09:57 graph d: nodes 760668 edges 889953 boundary-nodes 1454 bridges 174519 core nodes 561737 (0.738) pockets 74219
+14:10:01 eastern-ok facilities 6846 in pockets>=50 75
+14:10:07 graph d: nodes 731430 edges 856707 boundary-nodes 1851 bridges 156601 core nodes 543546 (0.743) pockets 61491
+14:10:11 maricopa-az facilities 8288 in pockets>=50 151
+14:10:14 graph d: nodes 305423 edges 344022 boundary-nodes 5029 bridges 89942 core nodes 204757 (0.670) pockets 32169
+14:10:16 northern-ca facilities 3837 in pockets>=50 124
+14:10:41 graph d: nodes 2741215 edges 3262198 boundary-nodes 5510 bridges 553652 core nodes 2081957 (0.760) pockets 223137
+14:10:59 south-central-tx facilities 34528 in pockets>=50 468
+14:11:01 graph d: nodes 247929 edges 282570 boundary-nodes 3027 bridges 60108 core nodes 182512 (0.736) pockets 19898
+14:11:03 eastern-wa facilities 2389 in pockets>=50 30
+                group whp_q  facilities_on_network  in_single_egress_pocket   share   ci_lo   ci_hi
+0          care_homes    Q1                   2779                       26  0.0094  0.0064  0.0137
+1          care_homes    Q2                   2883                       41  0.0142  0.0105  0.0192
+2          care_homes    Q3                   2935                       51  0.0174  0.0132  0.0228
+3          care_homes    Q4                   2369                      108  0.0456  0.0379  0.0547
+4           emergency    Q1                   3020                       16  0.0053  0.0033  0.0086
+5           emergency    Q2                   3030                       23  0.0076  0.0051  0.0114
+6           emergency    Q3                   3018                       42  0.0139  0.0103  0.0188
+7           emergency    Q4                   3173                      101  0.0318  0.0263  0.0385
+8   schools_childcare    Q1                   6855                       46  0.0067  0.0050  0.0089
+9   schools_childcare    Q2                   7908                      106  0.0134  0.0111  0.0162
+10  schools_childcare    Q3                   7937                      108  0.0136  0.0113  0.0164
+11  schools_childcare    Q4                   7432                      180  0.0242  0.0210  0.0280
+12         care_homes   all                  10966                      226  0.0206  0.0181  0.0234
+13          emergency   all                  12241                      182  0.0149  0.0129  0.0172
+14  schools_childcare   all                  30132                      440  0.0146  0.0133  0.0160
+FAC_DONE

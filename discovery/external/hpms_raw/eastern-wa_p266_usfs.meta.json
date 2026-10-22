@@ -1,0 +1,15 @@
+{
+ "kind": "usfs",
+ "url": "https://apps.fs.usda.gov/arcx/rest/services/EDW/EDW_RoadBasic_01/MapServer/0/query",
+ "first_query": "https://apps.fs.usda.gov/arcx/rest/services/EDW/EDW_RoadBasic_01/MapServer/0/query?geometry=-120.943279%2C47.100336%2C-120.806883%2C47.193292&geometryType=esriGeometryEnvelope&inSR=4326&spatialRel=esriSpatialRelIntersects&outFields=objectid%2Cid%2Cname%2Coper_maint_level%2Copenforuseto%2Cjurisdiction%2Csystem&returnGeometry=true&outSR=5070&maxAllowableOffset=2&geometryPrecision=0&orderByFields=objectid&resultOffset=0&resultRecordCount=2000&f=json",
+ "pages": 1,
+ "n_features": 17,
+ "wire_bytes": 10282,
+ "retrieved_utc": "2026-10-17T15:28:58+00:00",
+ "bbox": [
+  47.10033593898392,
+  -120.94327872487392,
+  47.19329218287847,
+  -120.80688294790819
+ ]
+}

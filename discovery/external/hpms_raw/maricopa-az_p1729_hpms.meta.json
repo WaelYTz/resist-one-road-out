@@ -1,0 +1,15 @@
+{
+ "kind": "hpms",
+ "url": "https://geo.dot.gov/server/rest/services/Hosted/HPMS_FULL_AZ_2024/FeatureServer/0/query",
+ "first_query": "https://geo.dot.gov/server/rest/services/Hosted/HPMS_FULL_AZ_2024/FeatureServer/0/query?geometry=-112.621806%2C33.818080%2C-112.589517%2C33.842495&geometryType=esriGeometryEnvelope&inSR=4326&spatialRel=esriSpatialRelIntersects&outFields=objectid%2Cdata_year%2Croute_id%2Croutename%2Cf_system%2Cownership%2Cfacility_type%2Cstructure_type%2Ccounty_id%2Cis_restricted&returnGeometry=true&outSR=5070&maxAllowableOffset=2&geometryPrecision=0&orderByFields=objectid&resultOffset=0&resultRecordCount=2000&f=json",
+ "pages": 1,
+ "n_features": 65,
+ "wire_bytes": 2169,
+ "retrieved_utc": "2026-10-17T15:17:36+00:00",
+ "bbox": [
+  33.818080075245554,
+  -112.62180634168934,
+  33.84249517345613,
+  -112.58951733534559
+ ]
+}

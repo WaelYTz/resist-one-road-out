@@ -1,0 +1,16 @@
+{
+ "endpoint": "https://overpass-api.de/api/interpreter",
+ "query": "[out:json][timeout:120];\nway[\"highway\"~\"^(motorway|trunk|primary|secondary|tertiary|unclassified|residential|living_street|service|track|road|motorway_link|trunk_link|primary_link|secondary_link|tertiary_link|busway)$\"](39.469053,-121.465211,39.501269,-121.431229)->.w;\n.w out body qt;\nnode(w.w)->.n;\n.n out skel qt;\nnode.n[\"barrier\"];\nout body qt;",
+ "retrieved_utc": "2026-10-15T00:11:36+00:00",
+ "osm_base": "2026-10-15T00:09:48Z",
+ "http_status": 200,
+ "wire_bytes": 39648,
+ "json_bytes": 223496,
+ "bbox": [
+  39.46905270663292,
+  -121.46521063812035,
+  39.50126878180956,
+  -121.4312294597115
+ ],
+ "margin_m": 750.0
+}

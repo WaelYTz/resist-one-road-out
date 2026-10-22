@@ -1,0 +1,367 @@
+<site-packages>\numpy\lib\_function_base_impl.py:4596: RuntimeWarning: invalid value encountered in subtract
+  diff_b_a = b - a
+<site-packages>\numpy\lib\_function_base_impl.py:4596: RuntimeWarning: invalid value encountered in subtract
+  diff_b_a = b - a
+             metric                                                desc         group             level  n_tracts     denom         numer     rate    ci_lo    ci_hi
+0          pocket50     residents in single-egress pockets (>=50 bldgs)        region        eastern-ok      1191   3926466  1.894407e+05  0.04825  0.04354  0.05303
+1          pocket50     residents in single-egress pockets (>=50 bldgs)        region        eastern-wa       414   1676917  9.299158e+04  0.05545  0.04812  0.06288
+2          pocket50     residents in single-egress pockets (>=50 bldgs)        region       maricopa-az      1582   6606494  4.060922e+05  0.06147  0.05659  0.06654
+3          pocket50     residents in single-egress pockets (>=50 bldgs)        region       northern-ca       591   2458891  1.816314e+05  0.07387  0.06569  0.08309
+4          pocket50     residents in single-egress pockets (>=50 bldgs)        region  south-central-tx      5989  25758569  2.013883e+06  0.07818  0.07504  0.08145
+5          pocket50     residents in single-egress pockets (>=50 bldgs)            ur             Rural      1853   6461884  7.117913e+05  0.11015  0.10378  0.11635
+6          pocket50     residents in single-egress pockets (>=50 bldgs)            ur             Urban      7914  33965453  2.172248e+06  0.06395  0.06151  0.06654
+7          pocket50     residents in single-egress pockets (>=50 bldgs)        tribal        non-tribal      8893  37493980  2.730985e+06  0.07284  0.07024  0.07533
+8          pocket50     residents in single-egress pockets (>=50 bldgs)        tribal            tribal       874   2933357  1.530540e+05  0.05218  0.04615  0.05835
+9          pocket50     residents in single-egress pockets (>=50 bldgs)         svi_q                Q1      1496   6332529  5.652950e+05  0.08927  0.08232  0.09663
+10         pocket50     residents in single-egress pockets (>=50 bldgs)         svi_q                Q2      1551   6836407  6.075770e+05  0.08887  0.08252  0.09569
+11         pocket50     residents in single-egress pockets (>=50 bldgs)         svi_q                Q3      1689   6958450  5.427889e+05  0.07800  0.07249  0.08369
+12         pocket50     residents in single-egress pockets (>=50 bldgs)         svi_q                Q4      2199   9060157  5.931411e+05  0.06547  0.06094  0.07027
+13         pocket50     residents in single-egress pockets (>=50 bldgs)         svi_q                Q5      2771  11154986  5.752216e+05  0.05157  0.04801  0.05530
+14         pocket50     residents in single-egress pockets (>=50 bldgs)      svi_ht_q                Q1      2027   8769883  7.099451e+05  0.08095  0.07537  0.08649
+15         pocket50     residents in single-egress pockets (>=50 bldgs)      svi_ht_q                Q2      1913   7942836  6.454658e+05  0.08126  0.07573  0.08659
+16         pocket50     residents in single-egress pockets (>=50 bldgs)      svi_ht_q                Q3      1886   7758044  5.720393e+05  0.07373  0.06832  0.07912
+17         pocket50     residents in single-egress pockets (>=50 bldgs)      svi_ht_q                Q4      1889   7722913  5.141736e+05  0.06658  0.06152  0.07213
+18         pocket50     residents in single-egress pockets (>=50 bldgs)      svi_ht_q                Q5      1992   8148864  4.424032e+05  0.05429  0.05004  0.05842
+19         pocket50     residents in single-egress pockets (>=50 bldgs)         whp_q                Q1      2442   9111179  2.985053e+05  0.03276  0.02963  0.03587
+20         pocket50     residents in single-egress pockets (>=50 bldgs)         whp_q                Q2      2442  10639755  6.988884e+05  0.06569  0.06082  0.07049
+21         pocket50     residents in single-egress pockets (>=50 bldgs)         whp_q                Q3      2441  10836491  8.878438e+05  0.08193  0.07711  0.08702
+22         pocket50     residents in single-egress pockets (>=50 bldgs)         whp_q                Q4      2442   9839912  9.988016e+05  0.10151  0.09676  0.10646
+23         pocket50     residents in single-egress pockets (>=50 bldgs)  whp_q_region                Q1      2444   9273022  2.689773e+05  0.02901  0.02621  0.03193
+24         pocket50     residents in single-egress pockets (>=50 bldgs)  whp_q_region                Q2      2441  10407372  6.206853e+05  0.05964  0.05513  0.06446
+25         pocket50     residents in single-egress pockets (>=50 bldgs)  whp_q_region                Q3      2439  10746935  9.073345e+05  0.08443  0.07950  0.08948
+26         pocket50     residents in single-egress pockets (>=50 bldgs)  whp_q_region                Q4      2443  10000008  1.087042e+06  0.10870  0.10343  0.11407
+27         pocket50     residents in single-egress pockets (>=50 bldgs)       whp_top             Q1-Q3      7325  30587425  1.885237e+06  0.06163  0.05904  0.06437
+28         pocket50     residents in single-egress pockets (>=50 bldgs)       whp_top                Q4      2442   9839912  9.988016e+05  0.10151  0.09654  0.10647
+29         pocket50     residents in single-egress pockets (>=50 bldgs)           all               all      9767  40427337  2.884039e+06  0.07134  0.06891  0.07400
+30   pocket50_noext  same, still single-egress with service/track added        region        eastern-ok      1191   3926466  1.728105e+05  0.04401  0.03952  0.04859
+31   pocket50_noext  same, still single-egress with service/track added        region        eastern-wa       414   1676917  7.474063e+04  0.04457  0.03782  0.05215
+32   pocket50_noext  same, still single-egress with service/track added        region       maricopa-az      1582   6606494  3.032680e+05  0.04590  0.04164  0.05023
+33   pocket50_noext  same, still single-egress with service/track added        region       northern-ca       591   2458891  1.387082e+05  0.05641  0.04947  0.06373
+34   pocket50_noext  same, still single-egress with service/track added        region  south-central-tx      5989  25758569  1.786938e+06  0.06937  0.06630  0.07236
+35   pocket50_noext  same, still single-egress with service/track added            ur             Rural      1853   6461884  5.953507e+05  0.09213  0.08667  0.09773
+36   pocket50_noext  same, still single-egress with service/track added            ur             Urban      7914  33965453  1.881114e+06  0.05538  0.05300  0.05779
+37   pocket50_noext  same, still single-egress with service/track added        tribal        non-tribal      8893  37493980  2.343198e+06  0.06250  0.06018  0.06477
+38   pocket50_noext  same, still single-egress with service/track added        tribal            tribal       874   2933357  1.332674e+05  0.04543  0.03985  0.05091
+39   pocket50_noext  same, still single-egress with service/track added         svi_q                Q1      1496   6332529  5.026615e+05  0.07938  0.07302  0.08626
+40   pocket50_noext  same, still single-egress with service/track added         svi_q                Q2      1551   6836407  5.117091e+05  0.07485  0.06931  0.08093
+41   pocket50_noext  same, still single-egress with service/track added         svi_q                Q3      1689   6958450  4.712815e+05  0.06773  0.06219  0.07293
+42   pocket50_noext  same, still single-egress with service/track added         svi_q                Q4      2199   9060157  5.113903e+05  0.05644  0.05216  0.06096
+43   pocket50_noext  same, still single-egress with service/track added         svi_q                Q5      2771  11154986  4.794167e+05  0.04298  0.03962  0.04628
+44   pocket50_noext  same, still single-egress with service/track added      svi_ht_q                Q1      2027   8769883  6.339246e+05  0.07228  0.06689  0.07790
+45   pocket50_noext  same, still single-egress with service/track added      svi_ht_q                Q2      1913   7942836  5.495291e+05  0.06919  0.06438  0.07435
+46   pocket50_noext  same, still single-egress with service/track added      svi_ht_q                Q3      1886   7758044  4.974994e+05  0.06413  0.05883  0.06932
+47   pocket50_noext  same, still single-egress with service/track added      svi_ht_q                Q4      1889   7722913  4.328420e+05  0.05605  0.05155  0.06078
+48   pocket50_noext  same, still single-egress with service/track added      svi_ht_q                Q5      1992   8148864  3.626674e+05  0.04451  0.04084  0.04827
+49   pocket50_noext  same, still single-egress with service/track added         whp_q                Q1      2442   9111179  2.667703e+05  0.02928  0.02642  0.03230
+50   pocket50_noext  same, still single-egress with service/track added         whp_q                Q2      2442  10639755  6.137869e+05  0.05769  0.05311  0.06230
+51   pocket50_noext  same, still single-egress with service/track added         whp_q                Q3      2441  10836491  7.714276e+05  0.07119  0.06658  0.07617
+52   pocket50_noext  same, still single-egress with service/track added         whp_q                Q4      2442   9839912  8.244802e+05  0.08379  0.07947  0.08821
+53   pocket50_noext  same, still single-egress with service/track added  whp_q_region                Q1      2444   9273022  2.314718e+05  0.02496  0.02231  0.02771
+54   pocket50_noext  same, still single-egress with service/track added  whp_q_region                Q2      2441  10407372  5.469996e+05  0.05256  0.04833  0.05675
+55   pocket50_noext  same, still single-egress with service/track added  whp_q_region                Q3      2439  10746935  7.819839e+05  0.07276  0.06815  0.07765
+56   pocket50_noext  same, still single-egress with service/track added  whp_q_region                Q4      2443  10000008  9.160096e+05  0.09160  0.08674  0.09625
+57   pocket50_noext  same, still single-egress with service/track added       whp_top             Q1-Q3      7325  30587425  1.651985e+06  0.05401  0.05157  0.05658
+58   pocket50_noext  same, still single-egress with service/track added       whp_top                Q4      2442   9839912  8.244802e+05  0.08379  0.07943  0.08842
+59   pocket50_noext  same, still single-egress with service/track added           all               all      9767  40427337  2.476465e+06  0.06126  0.05898  0.06344
+90    cluster_1exit        residents of settlement clusters with 1 exit        region        eastern-ok      1191   3926466  1.558394e+04  0.00397  0.00239  0.00593
+91    cluster_1exit        residents of settlement clusters with 1 exit        region        eastern-wa       414   1676917  4.648451e+03  0.00277  0.00159  0.00412
+92    cluster_1exit        residents of settlement clusters with 1 exit        region       maricopa-az      1582   6606494  1.665436e+04  0.00252  0.00182  0.00330
+93    cluster_1exit        residents of settlement clusters with 1 exit        region       northern-ca       591   2458891  9.068077e+03  0.00369  0.00161  0.00674
+94    cluster_1exit        residents of settlement clusters with 1 exit        region  south-central-tx      5989  25758569  5.985226e+04  0.00232  0.00190  0.00280
+95    cluster_1exit        residents of settlement clusters with 1 exit            ur             Rural      1853   6461884  7.644639e+04  0.01183  0.00980  0.01399
+96    cluster_1exit        residents of settlement clusters with 1 exit            ur             Urban      7914  33965453  2.936070e+04  0.00086  0.00062  0.00115
+97    cluster_1exit        residents of settlement clusters with 1 exit        tribal        non-tribal      8893  37493980  8.862418e+04  0.00236  0.00200  0.00276
+98    cluster_1exit        residents of settlement clusters with 1 exit        tribal            tribal       874   2933357  1.718291e+04  0.00586  0.00368  0.00860
+99    cluster_1exit        residents of settlement clusters with 1 exit         svi_q                Q1      1496   6332529  1.200706e+04  0.00190  0.00106  0.00284
+100   cluster_1exit        residents of settlement clusters with 1 exit         svi_q                Q2      1551   6836407  2.972959e+04  0.00435  0.00308  0.00581
+101   cluster_1exit        residents of settlement clusters with 1 exit         svi_q                Q3      1689   6958450  2.107753e+04  0.00303  0.00205  0.00413
+102   cluster_1exit        residents of settlement clusters with 1 exit         svi_q                Q4      2199   9060157  2.754439e+04  0.00304  0.00229  0.00388
+103   cluster_1exit        residents of settlement clusters with 1 exit         svi_q                Q5      2771  11154986  1.544665e+04  0.00138  0.00092  0.00194
+104   cluster_1exit        residents of settlement clusters with 1 exit      svi_ht_q                Q1      2027   8769883  1.470325e+04  0.00168  0.00102  0.00244
+105   cluster_1exit        residents of settlement clusters with 1 exit      svi_ht_q                Q2      1913   7942836  3.014094e+04  0.00379  0.00261  0.00521
+106   cluster_1exit        residents of settlement clusters with 1 exit      svi_ht_q                Q3      1886   7758044  2.358281e+04  0.00304  0.00220  0.00398
+107   cluster_1exit        residents of settlement clusters with 1 exit      svi_ht_q                Q4      1889   7722913  1.781514e+04  0.00231  0.00168  0.00299
+108   cluster_1exit        residents of settlement clusters with 1 exit      svi_ht_q                Q5      1992   8148864  1.956308e+04  0.00240  0.00169  0.00328
+109   cluster_1exit        residents of settlement clusters with 1 exit         whp_q                Q1      2442   9111179  1.168241e+03  0.00013  0.00000  0.00038
+110   cluster_1exit        residents of settlement clusters with 1 exit         whp_q                Q2      2442  10639755  9.381305e+03  0.00088  0.00044  0.00141
+111   cluster_1exit        residents of settlement clusters with 1 exit         whp_q                Q3      2441  10836491  3.429504e+04  0.00316  0.00235  0.00411
+112   cluster_1exit        residents of settlement clusters with 1 exit         whp_q                Q4      2442   9839912  6.096250e+04  0.00620  0.00510  0.00742
+113   cluster_1exit        residents of settlement clusters with 1 exit  whp_q_region                Q1      2444   9273022  1.327990e+03  0.00014  0.00000  0.00042
+114   cluster_1exit        residents of settlement clusters with 1 exit  whp_q_region                Q2      2441  10407372  6.674167e+03  0.00064  0.00029  0.00106
+115   cluster_1exit        residents of settlement clusters with 1 exit  whp_q_region                Q3      2439  10746935  2.891418e+04  0.00269  0.00192  0.00364
+116   cluster_1exit        residents of settlement clusters with 1 exit  whp_q_region                Q4      2443  10000008  6.889075e+04  0.00689  0.00568  0.00819
+117   cluster_1exit        residents of settlement clusters with 1 exit       whp_top             Q1-Q3      7325  30587425  4.484459e+04  0.00147  0.00113  0.00183
+118   cluster_1exit        residents of settlement clusters with 1 exit       whp_top                Q4      2442   9839912  6.096250e+04  0.00620  0.00505  0.00748
+119   cluster_1exit        residents of settlement clusters with 1 exit           all               all      9767  40427337  1.058071e+05  0.00262  0.00225  0.00302
+180      island_all      residents attached to drivable routing islands        region        eastern-ok      1191   3926466  8.726958e+03  0.00222  0.00187  0.00264
+181      island_all      residents attached to drivable routing islands        region        eastern-wa       414   1676917  1.191254e+03  0.00071  0.00043  0.00107
+182      island_all      residents attached to drivable routing islands        region       maricopa-az      1582   6606494  1.404427e+04  0.00213  0.00153  0.00290
+183      island_all      residents attached to drivable routing islands        region       northern-ca       591   2458891  5.739335e+03  0.00233  0.00157  0.00319
+184      island_all      residents attached to drivable routing islands        region  south-central-tx      5989  25758569  3.587307e+04  0.00139  0.00121  0.00160
+185      island_all      residents attached to drivable routing islands            ur             Rural      1853   6461884  2.465707e+04  0.00382  0.00344  0.00420
+186      island_all      residents attached to drivable routing islands            ur             Urban      7914  33965453  4.091782e+04  0.00120  0.00102  0.00142
+187      island_all      residents attached to drivable routing islands        tribal        non-tribal      8893  37493980  5.655739e+04  0.00151  0.00132  0.00171
+188      island_all      residents attached to drivable routing islands        tribal            tribal       874   2933357  9.017501e+03  0.00307  0.00255  0.00365
+189      island_all      residents attached to drivable routing islands         svi_q                Q1      1496   6332529  6.090207e+03  0.00096  0.00073  0.00125
+190      island_all      residents attached to drivable routing islands         svi_q                Q2      1551   6836407  1.138217e+04  0.00166  0.00127  0.00217
+191      island_all      residents attached to drivable routing islands         svi_q                Q3      1689   6958450  1.167862e+04  0.00168  0.00138  0.00199
+192      island_all      residents attached to drivable routing islands         svi_q                Q4      2199   9060157  1.694424e+04  0.00187  0.00153  0.00227
+193      island_all      residents attached to drivable routing islands         svi_q                Q5      2771  11154986  1.932211e+04  0.00173  0.00133  0.00220
+194      island_all      residents attached to drivable routing islands      svi_ht_q                Q1      2027   8769883  8.594619e+03  0.00098  0.00069  0.00139
+195      island_all      residents attached to drivable routing islands      svi_ht_q                Q2      1913   7942836  1.250110e+04  0.00157  0.00126  0.00192
+196      island_all      residents attached to drivable routing islands      svi_ht_q                Q3      1886   7758044  1.248518e+04  0.00161  0.00128  0.00195
+197      island_all      residents attached to drivable routing islands      svi_ht_q                Q4      1889   7722913  1.183266e+04  0.00153  0.00126  0.00183
+198      island_all      residents attached to drivable routing islands      svi_ht_q                Q5      1992   8148864  2.000378e+04  0.00245  0.00190  0.00310
+199      island_all      residents attached to drivable routing islands         whp_q                Q1      2442   9111179  6.664256e+03  0.00073  0.00050  0.00101
+200      island_all      residents attached to drivable routing islands         whp_q                Q2      2442  10639755  1.283283e+04  0.00121  0.00093  0.00152
+201      island_all      residents attached to drivable routing islands         whp_q                Q3      2441  10836491  1.822680e+04  0.00168  0.00137  0.00205
+202      island_all      residents attached to drivable routing islands         whp_q                Q4      2442   9839912  2.785100e+04  0.00283  0.00240  0.00339
+203      island_all      residents attached to drivable routing islands  whp_q_region                Q1      2444   9273022  8.564318e+03  0.00092  0.00064  0.00123
+204      island_all      residents attached to drivable routing islands  whp_q_region                Q2      2441  10407372  1.327950e+04  0.00128  0.00097  0.00165
+205      island_all      residents attached to drivable routing islands  whp_q_region                Q3      2439  10746935  1.683019e+04  0.00157  0.00122  0.00203
+206      island_all      residents attached to drivable routing islands  whp_q_region                Q4      2443  10000008  2.690089e+04  0.00269  0.00232  0.00310
+207      island_all      residents attached to drivable routing islands       whp_top             Q1-Q3      7325  30587425  3.772389e+04  0.00123  0.00107  0.00142
+208      island_all      residents attached to drivable routing islands       whp_top                Q4      2442   9839912  2.785100e+04  0.00283  0.00237  0.00338
+209      island_all      residents attached to drivable routing islands           all               all      9767  40427337  6.557490e+04  0.00162  0.00145  0.00181
+210   island_strict              same, not reconnected by service/track        region        eastern-ok      1191   3926466  7.780530e+00  0.00000  0.00000  0.00000
+211   island_strict              same, not reconnected by service/track        region        eastern-wa       414   1676917  2.729636e+02  0.00016  0.00000  0.00048
+212   island_strict              same, not reconnected by service/track        region       maricopa-az      1582   6606494  4.892920e+01  0.00001  0.00000  0.00002
+213   island_strict              same, not reconnected by service/track        region       northern-ca       591   2458891  6.277483e+01  0.00003  0.00000  0.00007
+214   island_strict              same, not reconnected by service/track        region  south-central-tx      5989  25758569  4.469518e+02  0.00002  0.00001  0.00004
+215   island_strict              same, not reconnected by service/track            ur             Rural      1853   6461884  3.243852e+02  0.00005  0.00001  0.00012
+216   island_strict              same, not reconnected by service/track            ur             Urban      7914  33965453  5.150148e+02  0.00002  0.00001  0.00003
+217   island_strict              same, not reconnected by service/track        tribal        non-tribal      8893  37493980  8.324988e+02  0.00002  0.00001  0.00004
+218   island_strict              same, not reconnected by service/track        tribal            tribal       874   2933357  6.901150e+00  0.00000  0.00000  0.00001
+219   island_strict              same, not reconnected by service/track         svi_q                Q1      1496   6332529  6.749651e+01  0.00001  0.00000  0.00002
+220   island_strict              same, not reconnected by service/track         svi_q                Q2      1551   6836407  8.099282e+01  0.00001  0.00000  0.00002
+221   island_strict              same, not reconnected by service/track         svi_q                Q3      1689   6958450  2.753123e+02  0.00004  0.00000  0.00011
+222   island_strict              same, not reconnected by service/track         svi_q                Q4      2199   9060157  4.215589e+01  0.00000  0.00000  0.00001
+223   island_strict              same, not reconnected by service/track         svi_q                Q5      2771  11154986  3.720733e+02  0.00003  0.00000  0.00008
+224   island_strict              same, not reconnected by service/track      svi_ht_q                Q1      2027   8769883  1.038275e+02  0.00001  0.00000  0.00002
+225   island_strict              same, not reconnected by service/track      svi_ht_q                Q2      1913   7942836  4.786948e+01  0.00001  0.00000  0.00001
+226   island_strict              same, not reconnected by service/track      svi_ht_q                Q3      1886   7758044  8.290689e+01  0.00001  0.00000  0.00002
+227   island_strict              same, not reconnected by service/track      svi_ht_q                Q4      1889   7722913  5.287028e+02  0.00007  0.00000  0.00016
+228   island_strict              same, not reconnected by service/track      svi_ht_q                Q5      1992   8148864  7.472416e+01  0.00001  0.00000  0.00002
+229   island_strict              same, not reconnected by service/track         whp_q                Q1      2442   9111179  8.160131e+01  0.00001  0.00000  0.00002
+230   island_strict              same, not reconnected by service/track         whp_q                Q2      2442  10639755  3.985501e+01  0.00000  0.00000  0.00001
+231   island_strict              same, not reconnected by service/track         whp_q                Q3      2441  10836491  3.430339e+02  0.00003  0.00000  0.00008
+232   island_strict              same, not reconnected by service/track         whp_q                Q4      2442   9839912  3.749097e+02  0.00004  0.00001  0.00009
+233   island_strict              same, not reconnected by service/track  whp_q_region                Q1      2444   9273022  8.023223e+01  0.00001  0.00000  0.00002
+234   island_strict              same, not reconnected by service/track  whp_q_region                Q2      2441  10407372  2.731169e+01  0.00000  0.00000  0.00001
+235   island_strict              same, not reconnected by service/track  whp_q_region                Q3      2439  10746935  3.412672e+02  0.00003  0.00000  0.00008
+236   island_strict              same, not reconnected by service/track  whp_q_region                Q4      2443  10000008  3.905888e+02  0.00004  0.00001  0.00009
+237   island_strict              same, not reconnected by service/track       whp_top             Q1-Q3      7325  30587425  4.644902e+02  0.00002  0.00000  0.00003
+238   island_strict              same, not reconnected by service/track       whp_top                Q4      2442   9839912  3.749097e+02  0.00004  0.00001  0.00009
+239   island_strict              same, not reconnected by service/track           all               all      9767  40427337  8.393999e+02  0.00002  0.00001  0.00004
+              metric                                         comparison  rate_a  rate_b    ratio  ratio_ci_lo  ratio_ci_hi    diff  diff_ci_lo  diff_ci_hi   n_a   n_b     pop_a     pop_b    affected_a
+0           pocket50                                     rural vs urban  0.1102  0.0640   1.7224       1.6077       1.8419  0.0462      0.0394      0.0529  1853  7914   6461884  33965453  7.117913e+05
+1           pocket50                               tribal vs non-tribal  0.0522  0.0728   0.7163       0.6306       0.8060 -0.0207     -0.0272     -0.0141   874  8893   2933357  37493980  1.530540e+05
+2           pocket50                     SVI Q5 (most vulnerable) vs Q1  0.0516  0.0893   0.5777       0.5178       0.6420 -0.0377     -0.0459     -0.0298  2771  1496  11154986   6332529  5.752216e+05
+3           pocket50          SVI housing-type/transport theme Q5 vs Q1  0.0543  0.0810   0.6706       0.6037       0.7443 -0.0267     -0.0336     -0.0195  1992  2027   8148864   8769883  4.424032e+05
+4           pocket50   wildfire hazard (WHP) Q4 vs Q1, pooled quartiles  0.1015  0.0328   3.0982       2.7957       3.4790  0.0687      0.0630      0.0746  2442  2442   9839912   9111179  9.988016e+05
+5           pocket50  wildfire hazard Q4 vs Q1, within-region quartiles  0.1087  0.0290   3.7476       3.3528       4.2028  0.0797      0.0736      0.0859  2443  2444  10000008   9273022  1.087042e+06
+6           pocket50      wildfire hazard Q4 vs Q1-Q3, pooled quartiles  0.1015  0.0616   1.6469       1.5379       1.7543  0.0399      0.0340      0.0454  2442  7325   9839912  30587425  9.988016e+05
+7     pocket50_noext                                     rural vs urban  0.0921  0.0554   1.6636       1.5454       1.7914  0.0367      0.0307      0.0429  1853  7914   6461884  33965453  5.953507e+05
+8     pocket50_noext                               tribal vs non-tribal  0.0454  0.0625   0.7270       0.6373       0.8185 -0.0171     -0.0229     -0.0113   874  8893   2933357  37493980  1.332674e+05
+9     pocket50_noext                     SVI Q5 (most vulnerable) vs Q1  0.0430  0.0794   0.5414       0.4838       0.6045 -0.0364     -0.0438     -0.0293  2771  1496  11154986   6332529  4.794167e+05
+10    pocket50_noext          SVI housing-type/transport theme Q5 vs Q1  0.0445  0.0723   0.6157       0.5492       0.6883 -0.0278     -0.0346     -0.0212  1992  2027   8148864   8769883  3.626674e+05
+11    pocket50_noext   wildfire hazard (WHP) Q4 vs Q1, pooled quartiles  0.0838  0.0293   2.8617       2.5586       3.2329  0.0545      0.0491      0.0600  2442  2442   9839912   9111179  8.244802e+05
+12    pocket50_noext  wildfire hazard Q4 vs Q1, within-region quartiles  0.0916  0.0250   3.6696       3.2585       4.1588  0.0666      0.0610      0.0724  2443  2444  10000008   9273022  9.160096e+05
+13    pocket50_noext      wildfire hazard Q4 vs Q1-Q3, pooled quartiles  0.0838  0.0540   1.5514       1.4426       1.6633  0.0298      0.0246      0.0351  2442  7325   9839912  30587425  8.244802e+05
+14         pocket100                                     rural vs urban  0.0672  0.0358   1.8771       1.6988       2.0690  0.0314      0.0258      0.0370  1853  7914   6461884  33965453  4.343659e+05
+15         pocket100                               tribal vs non-tribal  0.0256  0.0420   0.6094       0.4987       0.7300 -0.0164     -0.0214     -0.0112   874  8893   2933357  37493980  7.511638e+04
+16         pocket100                     SVI Q5 (most vulnerable) vs Q1  0.0285  0.0492   0.5788       0.4937       0.6756 -0.0207     -0.0273     -0.0144  2771  1496  11154986   6332529  3.176023e+05
+17         pocket100          SVI housing-type/transport theme Q5 vs Q1  0.0296  0.0445   0.6646       0.5706       0.7714 -0.0149     -0.0206     -0.0095  1992  2027   8148864   8769883  2.410870e+05
+18         pocket100   wildfire hazard (WHP) Q4 vs Q1, pooled quartiles  0.0588  0.0150   3.9243       3.3231       4.6470  0.0438      0.0389      0.0486  2442  2442   9839912   9111179  5.787852e+05
+19         pocket100  wildfire hazard Q4 vs Q1, within-region quartiles  0.0654  0.0127   5.1584       4.3901       6.2346  0.0527      0.0480      0.0576  2443  2444  10000008   9273022  6.542129e+05
+20         pocket100      wildfire hazard Q4 vs Q1-Q3, pooled quartiles  0.0588  0.0350   1.6785       1.5289       1.8404  0.0238      0.0192      0.0285  2442  7325   9839912  30587425  5.787852e+05
+21     cluster_1exit                                     rural vs urban  0.0118  0.0009  13.6858       9.8413      19.7215  0.0110      0.0090      0.0131  1853  7914   6461884  33965453  7.644639e+04
+22     cluster_1exit                               tribal vs non-tribal  0.0059  0.0024   2.4782       1.4946       3.7643  0.0035      0.0012      0.0063   874  8893   2933357  37493980  1.718291e+04
+23     cluster_1exit                     SVI Q5 (most vulnerable) vs Q1  0.0014  0.0019   0.7303       0.4059       1.3999 -0.0005     -0.0016      0.0005  2771  1496  11154986   6332529  1.544665e+04
+24     cluster_1exit          SVI housing-type/transport theme Q5 vs Q1  0.0024  0.0017   1.4319       0.8444       2.6064  0.0007     -0.0003      0.0019  1992  2027   8148864   8769883  1.956308e+04
+25     cluster_1exit   wildfire hazard (WHP) Q4 vs Q1, pooled quartiles  0.0062  0.0001  48.3185      15.1692          NaN  0.0061      0.0049      0.0073  2442  2442   9839912   9111179  6.096250e+04
+26     cluster_1exit  wildfire hazard Q4 vs Q1, within-region quartiles  0.0069  0.0001  48.1047      15.5851          NaN  0.0067      0.0055      0.0081  2443  2444  10000008   9273022  6.889075e+04
+27     cluster_1exit      wildfire hazard Q4 vs Q1-Q3, pooled quartiles  0.0062  0.0015   4.2258       3.0905       5.8227  0.0047      0.0035      0.0060  2442  7325   9839912  30587425  6.096250e+04
+28   cluster_le2exit                                     rural vs urban  0.0470  0.0033  14.2481      11.5564      17.9733  0.0437      0.0398      0.0478  1853  7914   6461884  33965453  3.035425e+05
+29   cluster_le2exit                               tribal vs non-tribal  0.0180  0.0097   1.8654       1.4499       2.3292  0.0084      0.0045      0.0125   874  8893   2933357  37493980  5.291862e+04
+30   cluster_le2exit                     SVI Q5 (most vulnerable) vs Q1  0.0060  0.0077   0.7694       0.5061       1.2166 -0.0018     -0.0052      0.0012  2771  1496  11154986   6332529  6.638994e+04
+31   cluster_le2exit          SVI housing-type/transport theme Q5 vs Q1  0.0087  0.0074   1.1663       0.8464       1.6372  0.0012     -0.0014      0.0037  1992  2027   8148864   8769883  7.071819e+04
+32   cluster_le2exit   wildfire hazard (WHP) Q4 vs Q1, pooled quartiles  0.0257  0.0006  43.9098      20.5927     193.1007  0.0251      0.0226      0.0279  2442  2442   9839912   9111179  2.528596e+05
+33   cluster_le2exit  wildfire hazard Q4 vs Q1, within-region quartiles  0.0272  0.0007  40.1061      20.7875     122.4686  0.0266      0.0240      0.0292  2443  2444  10000008   9273022  2.723414e+05
+34   cluster_le2exit      wildfire hazard Q4 vs Q1-Q3, pooled quartiles  0.0257  0.0053   4.8322       4.0270       5.8917  0.0204      0.0177      0.0231  2442  7325   9839912  30587425  2.528596e+05
+35  cluster_unmapped                                     rural vs urban  0.0079  0.0007  10.7268       6.9959      17.0789  0.0071      0.0053      0.0094  1853  7914   6461884  33965453  5.090342e+04
+36  cluster_unmapped                               tribal vs non-tribal  0.0019  0.0019   1.0371       0.7097       1.4940  0.0001     -0.0006      0.0008   874  8893   2933357  37493980  5.692335e+03
+37  cluster_unmapped                     SVI Q5 (most vulnerable) vs Q1  0.0010  0.0008   1.2882       0.6642       2.7234  0.0002     -0.0004      0.0008  2771  1496  11154986   6332529  1.137760e+04
+38  cluster_unmapped          SVI housing-type/transport theme Q5 vs Q1  0.0017  0.0007   2.6464       1.3035       5.0878  0.0011      0.0003      0.0019  1992  2027   8148864   8769883  1.410664e+04
+39  cluster_unmapped   wildfire hazard (WHP) Q4 vs Q1, pooled quartiles  0.0045  0.0001  39.0807      15.5917     298.0381  0.0044      0.0032      0.0059  2442  2442   9839912   9111179  4.430220e+04
+40  cluster_unmapped  wildfire hazard Q4 vs Q1, within-region quartiles  0.0040  0.0003  12.4008       5.4156      87.0716  0.0037      0.0026      0.0050  2443  2444  10000008   9273022  4.029215e+04
+41  cluster_unmapped      wildfire hazard Q4 vs Q1-Q3, pooled quartiles  0.0045  0.0010   4.3657       2.9119       6.5303  0.0035      0.0022      0.0050  2442  7325   9839912  30587425  4.430220e+04
+42        island_all                                     rural vs urban  0.0038  0.0012   3.1674       2.6176       3.8140  0.0026      0.0022      0.0030  1853  7914   6461884  33965453  2.465707e+04
+43        island_all                               tribal vs non-tribal  0.0031  0.0015   2.0379       1.6370       2.5073  0.0016      0.0010      0.0021   874  8893   2933357  37493980  9.017501e+03
+44        island_all                     SVI Q5 (most vulnerable) vs Q1  0.0017  0.0010   1.8011       1.2326       2.5656  0.0008      0.0003      0.0013  2771  1496  11154986   6332529  1.932211e+04
+45        island_all          SVI housing-type/transport theme Q5 vs Q1  0.0025  0.0010   2.5049       1.6315       3.7949  0.0015      0.0008      0.0022  1992  2027   8148864   8769883  2.000378e+04
+46        island_all   wildfire hazard (WHP) Q4 vs Q1, pooled quartiles  0.0028  0.0007   3.8697       2.6794       6.0435  0.0021      0.0016      0.0027  2442  2442   9839912   9111179  2.785100e+04
+47        island_all  wildfire hazard Q4 vs Q1, within-region quartiles  0.0027  0.0009   2.9127       2.1152       4.3178  0.0018      0.0013      0.0023  2443  2444  10000008   9273022  2.690089e+04
+48        island_all      wildfire hazard Q4 vs Q1-Q3, pooled quartiles  0.0028  0.0012   2.2950       1.8262       2.8805  0.0016      0.0011      0.0022  2442  7325   9839912  30587425  2.785100e+04
+49     island_strict                                     rural vs urban  0.0001  0.0000   3.3107       0.4305      14.4309  0.0000     -0.0000      0.0001  1853  7914   6461884  33965453  3.243852e+02
+50     island_strict                               tribal vs non-tribal  0.0000  0.0000   0.1060       0.0111       0.3583 -0.0000     -0.0000     -0.0000   874  8893   2933357  37493980  6.901200e+00
+51     island_strict                     SVI Q5 (most vulnerable) vs Q1  0.0000  0.0000   3.1294       0.3346      20.2955  0.0000     -0.0000      0.0001  2771  1496  11154986   6332529  3.720733e+02
+52     island_strict          SVI housing-type/transport theme Q5 vs Q1  0.0000  0.0000   0.7745       0.0837       3.8503 -0.0000     -0.0000      0.0000  1992  2027   8148864   8769883  7.472420e+01
+53     island_strict   wildfire hazard (WHP) Q4 vs Q1, pooled quartiles  0.0000  0.0000   4.2542       0.7462      47.7072  0.0000     -0.0000      0.0001  2442  2442   9839912   9111179  3.749097e+02
+54     island_strict  wildfire hazard Q4 vs Q1, within-region quartiles  0.0000  0.0000   4.5143       0.7885      81.5439  0.0000     -0.0000      0.0001  2443  2444  10000008   9273022  3.905888e+02
+55     island_strict      wildfire hazard Q4 vs Q1-Q3, pooled quartiles  0.0000  0.0000   2.5090       0.4223      12.3485  0.0000     -0.0000      0.0001  2442  7325   9839912  30587425  3.749097e+02
+56            far150                                     rural vs urban  0.1743  0.0212   8.2098       7.7919       8.6588  0.1531      0.1478      0.1582  1853  7914   6461884  33965453  1.126189e+06
+57            far150                               tribal vs non-tribal  0.0895  0.0423   2.1168       1.9505       2.2876  0.0472      0.0407      0.0538   874  8893   2933357  37493980  2.624513e+05
+58            far150                     SVI Q5 (most vulnerable) vs Q1  0.0379  0.0243   1.5596       1.3855       1.7766  0.0136      0.0101      0.0171  2771  1496  11154986   6332529  4.226221e+05
+59            far150          SVI housing-type/transport theme Q5 vs Q1  0.0479  0.0237   2.0182       1.7958       2.2678  0.0242      0.0201      0.0283  1992  2027   8148864   8769883  3.903230e+05
+60            far150   wildfire hazard (WHP) Q4 vs Q1, pooled quartiles  0.0934  0.0124   7.5255       6.6525       8.5712  0.0810      0.0768      0.0854  2442  2442   9839912   9111179  9.191140e+05
+61            far150  wildfire hazard Q4 vs Q1, within-region quartiles  0.1042  0.0131   7.9774       6.9827       9.1883  0.0912      0.0866      0.0958  2443  2444  10000008   9273022  1.042481e+06
+62            far150      wildfire hazard Q4 vs Q1-Q3, pooled quartiles  0.0934  0.0303   3.0784       2.8895       3.2820  0.0631      0.0590      0.0675  2442  7325   9839912  30587425  9.191140e+05
+63     bldg_pocket50                                     rural vs urban  0.1063  0.0705   1.5073       1.4006       1.6165  0.0358      0.0288      0.0426  1853  7914   5895898  13270506  6.267000e+05
+64     bldg_pocket50                               tribal vs non-tribal  0.0577  0.0844   0.6836       0.5893       0.7818 -0.0267     -0.0350     -0.0184   874  8893   2030628  17135776  1.170950e+05
+65     bldg_pocket50                     SVI Q5 (most vulnerable) vs Q1  0.0585  0.0997   0.5869       0.5246       0.6541 -0.0412     -0.0504     -0.0322  2771  1496   4678752   2907365  2.738400e+05
+66     bldg_pocket50          SVI housing-type/transport theme Q5 vs Q1  0.0614  0.0900   0.6822       0.6108       0.7648 -0.0286     -0.0372     -0.0200  1992  2027   3553771   3993133  2.181950e+05
+67     bldg_pocket50   wildfire hazard (WHP) Q4 vs Q1, pooled quartiles  0.1041  0.0336   3.0949       2.7303       3.4999  0.0705      0.0641      0.0770  2442  2442   6529385   3163618  6.797220e+05
+68     bldg_pocket50  wildfire hazard Q4 vs Q1, within-region quartiles  0.1092  0.0305   3.5848       3.1449       4.0474  0.0787      0.0722      0.0850  2443  2444   6819089   3147894  7.444000e+05
+69     bldg_pocket50      wildfire hazard Q4 vs Q1-Q3, pooled quartiles  0.1041  0.0699   1.4901       1.3902       1.5923  0.0342      0.0280      0.0402  2442  7325   6529385  12637019  6.797220e+05
+                      region          metric                                         comparison  rate_a  rate_b    ratio  ratio_ci_lo  ratio_ci_hi    diff  diff_ci_lo  diff_ci_hi   n_a   n_b    pop_a     pop_b   affected_a
+0                 eastern-ok        pocket50                                     rural vs urban  0.0634  0.0405   1.5639       1.2696       1.9298  0.0229      0.0117      0.0349   411   780  1326111   2600355   84051.2182
+1                 eastern-ok        pocket50                               tribal vs non-tribal  0.0483  0.0480   1.0065       0.8134       1.2411  0.0003     -0.0101      0.0099   805   386  2673442   1253024  129252.4118
+2                 eastern-ok        pocket50                     SVI Q5 (most vulnerable) vs Q1  0.0220  0.0750   0.2932       0.2045       0.4126 -0.0530     -0.0718     -0.0356   303   138   966534    453055   21263.0468
+3                 eastern-ok        pocket50          SVI housing-type/transport theme Q5 vs Q1  0.0301  0.0624   0.4820       0.3359       0.6713 -0.0323     -0.0476     -0.0178   249   209   845114    678977   25422.2146
+4                 eastern-ok        pocket50  wildfire hazard Q4 vs Q1, within-region quartiles  0.0445  0.0191   2.3369       1.6147       3.5567  0.0255      0.0147      0.0375   298   298   979849    882607   43651.7200
+5                 eastern-ok        pocket50      wildfire hazard Q4 vs Q1-Q3, pooled quartiles  0.0430  0.0497   0.8654       0.6577       1.1113 -0.0067     -0.0174      0.0052   262   929   847692   3078774   36454.6554
+6                 eastern-ok  pocket50_noext                                     rural vs urban  0.0584  0.0367   1.5913       1.2861       1.9377  0.0217      0.0112      0.0322   411   780  1326111   2600355   77415.7534
+7                 eastern-ok  pocket50_noext                               tribal vs non-tribal  0.0440  0.0441   0.9970       0.8100       1.2354 -0.0001     -0.0096      0.0090   805   386  2673442   1253024  117548.3839
+8                 eastern-ok  pocket50_noext                     SVI Q5 (most vulnerable) vs Q1  0.0202  0.0694   0.2914       0.2043       0.4098 -0.0492     -0.0660     -0.0338   303   138   966534    453055   19538.0907
+9                 eastern-ok  pocket50_noext          SVI housing-type/transport theme Q5 vs Q1  0.0278  0.0581   0.4788       0.3349       0.6839 -0.0303     -0.0443     -0.0155   249   209   845114    678977   23515.2414
+10                eastern-ok  pocket50_noext  wildfire hazard Q4 vs Q1, within-region quartiles  0.0412  0.0184   2.2357       1.5506       3.3559  0.0228      0.0123      0.0337   298   298   979849    882607   40368.1105
+11                eastern-ok  pocket50_noext      wildfire hazard Q4 vs Q1-Q3, pooled quartiles  0.0399  0.0452   0.8827       0.6662       1.1504 -0.0053     -0.0156      0.0064   262   929   847692   3078774   33788.1164
+12                eastern-ok   cluster_1exit                                     rural vs urban  0.0102  0.0008  12.5356       4.4964      75.9761  0.0094      0.0048      0.0145   411   780  1326111   2600355   13475.9599
+13                eastern-ok   cluster_1exit                               tribal vs non-tribal  0.0058  0.0000      inf          NaN          NaN  0.0058      0.0035      0.0086   805   386  2673442   1253024   15583.9365
+14                eastern-ok   cluster_1exit                     SVI Q5 (most vulnerable) vs Q1  0.0013  0.0008   1.6435       0.1951          NaN  0.0005     -0.0012      0.0022   303   138   966534    453055    1216.7901
+15                eastern-ok   cluster_1exit          SVI housing-type/transport theme Q5 vs Q1  0.0037  0.0009   4.1367       0.7987      26.5714  0.0028     -0.0003      0.0074   249   209   845114    678977    3157.4406
+16                eastern-ok   cluster_1exit  wildfire hazard Q4 vs Q1, within-region quartiles  0.0110  0.0000      inf          NaN          NaN  0.0110      0.0057      0.0178   298   298   979849    882607   10799.8344
+17                eastern-ok   cluster_1exit      wildfire hazard Q4 vs Q1-Q3, pooled quartiles  0.0106  0.0021   4.9212       1.9561      12.4891  0.0084      0.0027      0.0157   262   929   847692   3078774    8966.5022
+18                eastern-ok      island_all                                     rural vs urban  0.0052  0.0007   7.6372       4.9781      13.0593  0.0046      0.0036      0.0055   411   780  1326111   2600355    6944.0401
+19                eastern-ok      island_all                               tribal vs non-tribal  0.0028  0.0009   3.0086       1.8587       5.6392  0.0019      0.0012      0.0026   805   386  2673442   1253024    7550.6951
+20                eastern-ok      island_all                     SVI Q5 (most vulnerable) vs Q1  0.0012  0.0011   1.1209       0.6074       2.4552  0.0001     -0.0006      0.0008   303   138   966534    453055    1138.5398
+21                eastern-ok      island_all          SVI housing-type/transport theme Q5 vs Q1  0.0018  0.0010   1.8465       0.9955       4.0520  0.0008     -0.0000      0.0016   249   209   845114    678977    1499.7742
+22                eastern-ok      island_all  wildfire hazard Q4 vs Q1, within-region quartiles  0.0054  0.0004  12.1841       4.6687      98.8978  0.0049      0.0038      0.0062   298   298   979849    882607    5283.1463
+23                eastern-ok      island_all      wildfire hazard Q4 vs Q1-Q3, pooled quartiles  0.0057  0.0013   4.4834       3.1401       6.3259  0.0044      0.0032      0.0057   262   929   847692   3078774    4821.3070
+24                eastern-wa        pocket50                                     rural vs urban  0.0866  0.0429   2.0175       1.5789       2.6858  0.0437      0.0274      0.0623   141   273   480008   1196909   41589.5651
+25                eastern-wa        pocket50                               tribal vs non-tribal  0.0417  0.0560   0.7445       0.3419       1.2630 -0.0143     -0.0383      0.0141    16   398    63233   1613684    2635.9793
+26                eastern-wa        pocket50                     SVI Q5 (most vulnerable) vs Q1  0.0398  0.0817   0.4874       0.3291       0.7430 -0.0419     -0.0710     -0.0155   105    46   437286    174581   17411.0283
+27                eastern-wa        pocket50          SVI housing-type/transport theme Q5 vs Q1  0.0445  0.0844   0.5271       0.3609       0.7930 -0.0399     -0.0715     -0.0127   132    44   553983    161789   24652.6412
+28                eastern-wa        pocket50  wildfire hazard Q4 vs Q1, within-region quartiles  0.0992  0.0364   2.7234       1.8211       4.2807  0.0628      0.0404      0.0851   104   104   346703    456434   34400.6608
+29                eastern-wa        pocket50      wildfire hazard Q4 vs Q1-Q3, pooled quartiles  0.0852  0.0359   2.3739       1.8209       3.1854  0.0493      0.0339      0.0656   176   238   664720   1012197   56651.8533
+30                eastern-wa  pocket50_noext                                     rural vs urban  0.0657  0.0361   1.8179       1.3674       2.4521  0.0295      0.0155      0.0452   141   273   480008   1196909   31513.7150
+31                eastern-wa  pocket50_noext                               tribal vs non-tribal  0.0278  0.0452   0.6139       0.2648       1.0876 -0.0175     -0.0349      0.0038    16   398    63233   1613684    1755.6506
+32                eastern-wa  pocket50_noext                     SVI Q5 (most vulnerable) vs Q1  0.0327  0.0631   0.5188       0.3302       0.8249 -0.0304     -0.0564     -0.0079   105    46   437286    174581   14311.2097
+33                eastern-wa  pocket50_noext          SVI housing-type/transport theme Q5 vs Q1  0.0344  0.0648   0.5308       0.3507       0.7981 -0.0304     -0.0565     -0.0091   132    44   553983    161789   19054.1009
+34                eastern-wa  pocket50_noext  wildfire hazard Q4 vs Q1, within-region quartiles  0.0755  0.0310   2.4303       1.5861       4.1839  0.0444      0.0246      0.0655   104   104   346703    456434   26160.6531
+35                eastern-wa  pocket50_noext      wildfire hazard Q4 vs Q1-Q3, pooled quartiles  0.0683  0.0290   2.3583       1.7519       3.2310  0.0394      0.0257      0.0534   176   238   664720   1012197   45416.1251
+36                eastern-wa   cluster_1exit                                     rural vs urban  0.0085  0.0005  18.2577       7.1151     137.9615  0.0081      0.0044      0.0125   141   273   480008   1196909    4089.8812
+37                eastern-wa   cluster_1exit                               tribal vs non-tribal  0.0000  0.0029   0.0000       0.0000       0.0000 -0.0029     -0.0044     -0.0017    16   398    63233   1613684       0.0000
+38                eastern-wa   cluster_1exit                     SVI Q5 (most vulnerable) vs Q1  0.0023  0.0043   0.5422       0.0000       2.6931 -0.0020     -0.0072      0.0033   105    46   437286    174581    1023.7199
+39                eastern-wa   cluster_1exit          SVI housing-type/transport theme Q5 vs Q1  0.0036  0.0049   0.7354       0.1924       9.3569 -0.0013     -0.0083      0.0045   132    44   553983    161789    1996.4882
+40                eastern-wa   cluster_1exit  wildfire hazard Q4 vs Q1, within-region quartiles  0.0057  0.0000      inf          NaN          NaN  0.0057      0.0033      0.0082   104   104   346703    456434    1969.6456
+41                eastern-wa   cluster_1exit      wildfire hazard Q4 vs Q1-Q3, pooled quartiles  0.0057  0.0009   6.4717       2.0270          NaN  0.0048      0.0022      0.0075   176   238   664720   1012197    3763.0401
+42                eastern-wa      island_all                                     rural vs urban  0.0015  0.0004   3.8782       1.7047       9.4338  0.0011      0.0003      0.0023   141   273   480008   1196909     725.0682
+43                eastern-wa      island_all                               tribal vs non-tribal  0.0013  0.0007   1.9557       0.4029       5.0369  0.0007     -0.0005      0.0023    16   398    63233   1613684      84.7927
+44                eastern-wa      island_all                     SVI Q5 (most vulnerable) vs Q1  0.0004  0.0006   0.6443       0.1888      12.1852 -0.0002     -0.0009      0.0004   105    46   437286    174581     156.5497
+45                eastern-wa      island_all          SVI housing-type/transport theme Q5 vs Q1  0.0003  0.0011   0.2711       0.0929       0.8583 -0.0008     -0.0018     -0.0001   132    44   553983    161789     167.9476
+46                eastern-wa      island_all  wildfire hazard Q4 vs Q1, within-region quartiles  0.0017  0.0004   4.1605       1.3307      18.4556  0.0013      0.0002      0.0028   104   104   346703    456434     603.1178
+47                eastern-wa      island_all      wildfire hazard Q4 vs Q1-Q3, pooled quartiles  0.0012  0.0004   3.0574       1.2865       7.8736  0.0008      0.0002      0.0016   176   238   664720   1012197     795.2006
+48               maricopa-az        pocket50                                     rural vs urban  0.1305  0.0554   2.3577       1.8806       2.8649  0.0752      0.0503      0.1007   163  1419   536056   6070438   69979.5200
+49               maricopa-az        pocket50                               tribal vs non-tribal  0.1114  0.0605   1.8422       1.0792       2.7648  0.0509      0.0047      0.1044    37  1545   128271   6478223   14291.2154
+50               maricopa-az        pocket50                     SVI Q5 (most vulnerable) vs Q1  0.0450  0.0797   0.5654       0.4401       0.7156 -0.0346     -0.0492     -0.0206   366   348  1535817   1404842   69165.4378
+51               maricopa-az        pocket50          SVI housing-type/transport theme Q5 vs Q1  0.0530  0.0728   0.7282       0.5705       0.9221 -0.0198     -0.0352     -0.0052   379   382  1608494   1586090   85315.6970
+52               maricopa-az        pocket50  wildfire hazard Q4 vs Q1, within-region quartiles  0.1163  0.0205   5.6658       4.4283       7.5055  0.0958      0.0823      0.1106   396   396  1587450   1596798  184593.0808
+53               maricopa-az        pocket50      wildfire hazard Q4 vs Q1-Q3, pooled quartiles  0.0983  0.0281   3.5012       2.9594       4.1759  0.0702      0.0606      0.0802   759   823  3139705   3466789  308727.9827
+54               maricopa-az  pocket50_noext                                     rural vs urban  0.0822  0.0427   1.9265       1.4570       2.4647  0.0396      0.0202      0.0606   163  1419   536056   6070438   44090.5298
+55               maricopa-az  pocket50_noext                               tribal vs non-tribal  0.0660  0.0455   1.4499       0.7897       2.2309  0.0205     -0.0098      0.0551    37  1545   128271   6478223    8463.3377
+56               maricopa-az  pocket50_noext                     SVI Q5 (most vulnerable) vs Q1  0.0295  0.0685   0.4314       0.3326       0.5573 -0.0389     -0.0518     -0.0268   366   348  1535817   1404842   45379.6158
+57               maricopa-az  pocket50_noext          SVI housing-type/transport theme Q5 vs Q1  0.0346  0.0598   0.5777       0.4439       0.7400 -0.0253     -0.0382     -0.0135   379   382  1608494   1586090   55596.9077
+58               maricopa-az  pocket50_noext  wildfire hazard Q4 vs Q1, within-region quartiles  0.0857  0.0129   6.6315       4.9961       8.9651  0.0728      0.0609      0.0849   396   396  1587450   1596798  136002.6083
+59               maricopa-az  pocket50_noext      wildfire hazard Q4 vs Q1-Q3, pooled quartiles  0.0740  0.0205   3.6135       2.9854       4.4086  0.0535      0.0451      0.0621   759   823  3139705   3466789  232287.9081
+60               maricopa-az   cluster_1exit                                     rural vs urban  0.0189  0.0011  17.6603      10.1016      35.7596  0.0179      0.0121      0.0242   163  1419   536056   6070438   10147.5161
+61               maricopa-az   cluster_1exit                               tribal vs non-tribal  0.0107  0.0024   4.5503       1.0206      10.6734  0.0084      0.0000      0.0207    37  1545   128271   6478223    1376.5052
+62               maricopa-az   cluster_1exit                     SVI Q5 (most vulnerable) vs Q1  0.0013  0.0027   0.4988       0.1426       1.5029 -0.0013     -0.0034      0.0007   366   348  1535817   1404842    2058.9726
+63               maricopa-az   cluster_1exit          SVI housing-type/transport theme Q5 vs Q1  0.0023  0.0027   0.8521       0.3151       2.2850 -0.0004     -0.0027      0.0018   379   382  1608494   1586090    3707.1621
+64               maricopa-az   cluster_1exit  wildfire hazard Q4 vs Q1, within-region quartiles  0.0086  0.0001  85.8736      23.8279          NaN  0.0085      0.0058      0.0115   396   396  1587450   1596798   13637.8770
+65               maricopa-az   cluster_1exit      wildfire hazard Q4 vs Q1-Q3, pooled quartiles  0.0051  0.0002  23.4580      11.6195      80.5888  0.0049      0.0033      0.0065   759   823  3139705   3466789   15905.6740
+66               maricopa-az      island_all                                     rural vs urban  0.0052  0.0019   2.8198       1.7574       4.7916  0.0034      0.0017      0.0054   163  1419   536056   6070438    2799.8876
+67               maricopa-az      island_all                               tribal vs non-tribal  0.0091  0.0020   4.5552       1.8343       8.8490  0.0071      0.0019      0.0137    37  1545   128271   6478223    1161.9189
+68               maricopa-az      island_all                     SVI Q5 (most vulnerable) vs Q1  0.0035  0.0014   2.4468       1.0128       6.7837  0.0020      0.0000      0.0049   366   348  1535817   1404842    5298.8382
+69               maricopa-az      island_all          SVI housing-type/transport theme Q5 vs Q1  0.0047  0.0014   3.4573       1.5135       8.2828  0.0033      0.0010      0.0062   379   382  1608494   1586090    7519.7443
+70               maricopa-az      island_all  wildfire hazard Q4 vs Q1, within-region quartiles  0.0029  0.0012   2.5169       1.2683       6.1549  0.0018      0.0005      0.0031   396   396  1587450   1596798    4632.3017
+71               maricopa-az      island_all      wildfire hazard Q4 vs Q1-Q3, pooled quartiles  0.0026  0.0017   1.5972       0.8706       3.1941  0.0010     -0.0003      0.0026   759   823  3139705   3466789    8303.8190
+72               northern-ca        pocket50                                     rural vs urban  0.1229  0.0614   2.0012       1.5896       2.5103  0.0615      0.0402      0.0846   147   444   497511   1961380   61156.0780
+73               northern-ca        pocket50                               tribal vs non-tribal  0.0983  0.0732   1.3427       0.6921       2.3620  0.0251     -0.0230      0.0959    15   576    63502   2395389    6242.8955
+74               northern-ca        pocket50                     SVI Q5 (most vulnerable) vs Q1  0.0488  0.0976   0.5002       0.3359       0.7865 -0.0488     -0.0861     -0.0157   148    67   648938    292863   31681.4927
+75               northern-ca        pocket50          SVI housing-type/transport theme Q5 vs Q1  0.0678  0.0646   1.0489       0.7164       1.6035  0.0032     -0.0240      0.0293   166    75   719764    314980   48775.3306
+76               northern-ca        pocket50  wildfire hazard Q4 vs Q1, within-region quartiles  0.1385  0.0204   6.7851       4.8589      10.1540  0.1181      0.0974      0.1383   148   148   537860    616452   74487.9036
+77               northern-ca        pocket50      wildfire hazard Q4 vs Q1-Q3, pooled quartiles  0.1069  0.0271   3.9481       3.0464       5.2347  0.0799      0.0656      0.0945   353   238  1440594   1018297  154050.6409
+78               northern-ca  pocket50_noext                                     rural vs urban  0.0904  0.0478   1.8912       1.4585       2.4107  0.0426      0.0239      0.0630   147   444   497511   1961380   44967.2977
+79               northern-ca  pocket50_noext                               tribal vs non-tribal  0.0796  0.0558   1.4265       0.6573       2.5881  0.0238     -0.0197      0.0864    15   576    63502   2395389    5054.2494
+80               northern-ca  pocket50_noext                     SVI Q5 (most vulnerable) vs Q1  0.0378  0.0679   0.5570       0.3849       0.8777 -0.0301     -0.0539     -0.0062   148    67   648938    292863   24525.0260
+81               northern-ca  pocket50_noext          SVI housing-type/transport theme Q5 vs Q1  0.0539  0.0524   1.0302       0.6848       1.6775  0.0016     -0.0225      0.0257   166    75   719764    314980   38829.6070
+82               northern-ca  pocket50_noext  wildfire hazard Q4 vs Q1, within-region quartiles  0.1017  0.0174   5.8333       4.0075       9.0999  0.0843      0.0656      0.1052   148   148   537860    616452   54693.1538
+83               northern-ca  pocket50_noext      wildfire hazard Q4 vs Q1-Q3, pooled quartiles  0.0806  0.0223   3.6202       2.7446       4.9730  0.0583      0.0466      0.0705   353   238  1440594   1018297  116048.9797
+84               northern-ca   cluster_1exit                                     rural vs urban  0.0170  0.0003  54.8464      15.1011          NaN  0.0167      0.0067      0.0327   147   444   497511   1961380    8459.9699
+85               northern-ca   cluster_1exit                               tribal vs non-tribal  0.0035  0.0037   0.9487       0.0000       3.8055 -0.0002     -0.0055      0.0074    15   576    63502   2395389     222.4640
+86               northern-ca   cluster_1exit                     SVI Q5 (most vulnerable) vs Q1  0.0010  0.0002   5.4215       0.9519          NaN  0.0008     -0.0000      0.0018   148    67   648938    292863     675.7152
+87               northern-ca   cluster_1exit          SVI housing-type/transport theme Q5 vs Q1  0.0011  0.0003   3.6905       0.4560          NaN  0.0008     -0.0003      0.0021   166    75   719764    314980     784.1985
+88               northern-ca   cluster_1exit  wildfire hazard Q4 vs Q1, within-region quartiles  0.0159  0.0000      inf          NaN          NaN  0.0159      0.0069      0.0291   148   148   537860    616452    8574.2964
+89               northern-ca   cluster_1exit      wildfire hazard Q4 vs Q1-Q3, pooled quartiles  0.0063  0.0000      inf          NaN          NaN  0.0063      0.0028      0.0113   353   238  1440594   1018297    9068.0768
+90               northern-ca      island_all                                     rural vs urban  0.0038  0.0020   1.9580       1.1438       3.6339  0.0019      0.0004      0.0033   147   444   497511   1961380    1904.5545
+91               northern-ca      island_all                               tribal vs non-tribal  0.0035  0.0023   1.5042       0.3384       3.6428  0.0012     -0.0017      0.0051    15   576    63502   2395389     220.0941
+92               northern-ca      island_all                     SVI Q5 (most vulnerable) vs Q1  0.0032  0.0022   1.4551       0.4956       7.4859  0.0010     -0.0020      0.0039   148    67   648938    292863    2055.8153
+93               northern-ca      island_all          SVI housing-type/transport theme Q5 vs Q1  0.0024  0.0008   3.0671       1.0118      45.6541  0.0016      0.0000      0.0036   166    75   719764    314980    1736.0338
+94               northern-ca      island_all  wildfire hazard Q4 vs Q1, within-region quartiles  0.0030  0.0024   1.2640       0.5493       7.1867  0.0006     -0.0022      0.0029   148   148   537860    616452    1639.6841
+95               northern-ca      island_all      wildfire hazard Q4 vs Q1-Q3, pooled quartiles  0.0024  0.0022   1.1108       0.5266       3.3581  0.0002     -0.0019      0.0018   353   238  1440594   1018297    3507.3817
+96          south-central-tx        pocket50                                     rural vs urban  0.1256  0.0704   1.7838       1.6355       1.9423  0.0552      0.0460      0.0648   991  4998  3622198  22136371  455014.9231
+97          south-central-tx        pocket50                     SVI Q5 (most vulnerable) vs Q1  0.0576  0.0940   0.6128       0.5340       0.7032 -0.0364     -0.0477     -0.0255  1849   897  7566411   4007188  435700.5946
+98          south-central-tx        pocket50          SVI housing-type/transport theme Q5 vs Q1  0.0584  0.0859   0.6796       0.5912       0.7815 -0.0275     -0.0370     -0.0175  1066  1317  4421509   6028047  258237.3134
+99          south-central-tx        pocket50  wildfire hazard Q4 vs Q1, within-region quartiles  0.1145  0.0332   3.4451       3.0209       3.9763  0.0813      0.0733      0.0893  1497  1498  6548146   5720731  749908.5959
+100         south-central-tx        pocket50      wildfire hazard Q4 vs Q1-Q3, pooled quartiles  0.1182  0.0714   1.6561       1.5166       1.7968  0.0468      0.0376      0.0555   892  5097  3747201  22011368  442916.4480
+101         south-central-tx  pocket50_noext                                     rural vs urban  0.1097  0.0628   1.7476       1.5917       1.9074  0.0469      0.0383      0.0556   991  4998  3622198  22136371  397363.4152
+102         south-central-tx  pocket50_noext                     SVI Q5 (most vulnerable) vs Q1  0.0496  0.0859   0.5781       0.5016       0.6688 -0.0362     -0.0467     -0.0259  1849   897  7566411   4007188  375662.7105
+103         south-central-tx  pocket50_noext          SVI housing-type/transport theme Q5 vs Q1  0.0510  0.0784   0.6510       0.5673       0.7529 -0.0274     -0.0362     -0.0183  1066  1317  4421509   6028047  225671.5035
+104         south-central-tx  pocket50_noext  wildfire hazard Q4 vs Q1, within-region quartiles  0.1006  0.0297   3.3923       2.9609       3.9256  0.0709      0.0639      0.0782  1497  1498  6548146   5720731  658785.1123
+105         south-central-tx  pocket50_noext      wildfire hazard Q4 vs Q1-Q3, pooled quartiles  0.1059  0.0631   1.6774       1.5268       1.8349  0.0428      0.0342      0.0513   892  5097  3747201  22011368  396939.0820
+106         south-central-tx   cluster_1exit                                     rural vs urban  0.0111  0.0009  12.5705       8.2159      21.0249  0.0102      0.0079      0.0126   991  4998  3622198  22136371   40273.0623
+107         south-central-tx   cluster_1exit                     SVI Q5 (most vulnerable) vs Q1  0.0014  0.0018   0.7839       0.3605       2.1365 -0.0004     -0.0019      0.0009  1849   897  7566411   4007188   10471.4489
+108         south-central-tx   cluster_1exit          SVI housing-type/transport theme Q5 vs Q1  0.0022  0.0015   1.5168       0.7159       3.4734  0.0008     -0.0006      0.0022  1066  1317  4421509   6028047    9917.7896
+109         south-central-tx   cluster_1exit  wildfire hazard Q4 vs Q1, within-region quartiles  0.0052  0.0002  25.3581       7.5200          NaN  0.0050      0.0037      0.0062  1497  1498  6548146   5720731   33909.1003
+110         south-central-tx   cluster_1exit      wildfire hazard Q4 vs Q1-Q3, pooled quartiles  0.0062  0.0017   3.7337       2.5470       5.4412  0.0045      0.0029      0.0063   892  5097  3747201  22011368   23259.2080
+111         south-central-tx      island_all                                     rural vs urban  0.0034  0.0011   3.1823       2.5053       4.0945  0.0023      0.0018      0.0029   991  4998  3622198  22136371   12283.5229
+112         south-central-tx      island_all                     SVI Q5 (most vulnerable) vs Q1  0.0014  0.0007   1.9500       1.2805       2.9947  0.0007      0.0002      0.0012  1849   897  7566411   4007188   10672.3622
+113         south-central-tx      island_all          SVI housing-type/transport theme Q5 vs Q1  0.0021  0.0009   2.3059       1.3121       3.9542  0.0012      0.0004      0.0019  1066  1317  4421509   6028047    9080.2815
+114         south-central-tx      island_all  wildfire hazard Q4 vs Q1, within-region quartiles  0.0023  0.0008   2.7729       1.7645       4.8294  0.0014      0.0009      0.0021  1497  1498  6548146   5720731   14742.6374
+115         south-central-tx      island_all      wildfire hazard Q4 vs Q1-Q3, pooled quartiles  0.0028  0.0012   2.4058       1.7563       3.2931  0.0016      0.0009      0.0025   892  5097  3747201  22011368   10423.2966
+116  ALL (Rural tracts only)        pocket50        wildfire hazard Q4 vs Q1 (pooled quartiles)  0.1086  0.0520   2.0883       1.1544       5.7187  0.0566      0.0146      0.0900  1156    20  4099264     61540  445088.4846
+117  ALL (Rural tracts only)        pocket50     wildfire hazard Q4 vs Q1-Q3 (pooled quartiles)  0.1086  0.1129   0.9618       0.8531       1.0901 -0.0043     -0.0179      0.0093  1156   697  4099264   2362620  445088.4846
+118  ALL (Rural tracts only)  pocket50_noext        wildfire hazard Q4 vs Q1 (pooled quartiles)  0.0898  0.0477   1.8848       0.9771       5.3652  0.0422     -0.0021      0.0736  1156    20  4099264     61540  368185.4828
+119  ALL (Rural tracts only)  pocket50_noext     wildfire hazard Q4 vs Q1-Q3 (pooled quartiles)  0.0898  0.0961   0.9341       0.8297       1.0661 -0.0063     -0.0178      0.0059  1156   697  4099264   2362620  368185.4828
+120  ALL (Rural tracts only)   cluster_1exit        wildfire hazard Q4 vs Q1 (pooled quartiles)  0.0118  0.0000      inf          NaN          NaN  0.0118      0.0094      0.0147  1156    20  4099264     61540   48337.7043
+121  ALL (Rural tracts only)   cluster_1exit     wildfire hazard Q4 vs Q1-Q3 (pooled quartiles)  0.0118  0.0119   0.9911       0.6972       1.3923 -0.0001     -0.0043      0.0039  1156   697  4099264   2362620   48337.7043
+122  ALL (Rural tracts only)      island_all        wildfire hazard Q4 vs Q1 (pooled quartiles)  0.0040  0.0041   0.9798       0.3773       7.7178 -0.0001     -0.0064      0.0035  1156    20  4099264     61540   16304.5475
+123  ALL (Rural tracts only)      island_all     wildfire hazard Q4 vs Q1-Q3 (pooled quartiles)  0.0040  0.0035   1.1251       0.9117       1.4035  0.0004     -0.0004      0.0012  1156   697  4099264   2362620   16304.5475
+124  ALL (Urban tracts only)        pocket50        wildfire hazard Q4 vs Q1 (pooled quartiles)  0.0965  0.0326   2.9559       2.6246       3.3243  0.0638      0.0563      0.0711  1286  2422  5740648   9049639  553713.0957
+125  ALL (Urban tracts only)        pocket50     wildfire hazard Q4 vs Q1-Q3 (pooled quartiles)  0.0965  0.0573   1.6820       1.5433       1.8409  0.0391      0.0319      0.0470  1286  6628  5740648  28224805  553713.0957
+126  ALL (Urban tracts only)  pocket50_noext        wildfire hazard Q4 vs Q1 (pooled quartiles)  0.0795  0.0292   2.7263       2.4035       3.1190  0.0503      0.0438      0.0571  1286  2422  5740648   9049639  456294.7284
+127  ALL (Urban tracts only)  pocket50_noext     wildfire hazard Q4 vs Q1-Q3 (pooled quartiles)  0.0795  0.0505   1.5745       1.4361       1.7186  0.0290      0.0226      0.0355  1286  6628  5740648  28224805  456294.7284
+128  ALL (Urban tracts only)   cluster_1exit        wildfire hazard Q4 vs Q1 (pooled quartiles)  0.0022  0.0001  17.0358       4.7039          NaN  0.0021      0.0013      0.0030  1286  2422  5740648   9049639   12624.7968
+129  ALL (Urban tracts only)   cluster_1exit     wildfire hazard Q4 vs Q1-Q3 (pooled quartiles)  0.0022  0.0006   3.7089       2.0616       7.0379  0.0016      0.0008      0.0025  1286  6628  5740648  28224805   12624.7968
+130  ALL (Urban tracts only)      island_all        wildfire hazard Q4 vs Q1 (pooled quartiles)  0.0020  0.0007   2.8377       1.7299       4.8067  0.0013      0.0006      0.0022  1286  2422  5740648   9049639   11546.4574
+131  ALL (Urban tracts only)      island_all     wildfire hazard Q4 vs Q1-Q3 (pooled quartiles)  0.0020  0.0010   1.9328       1.2281       2.9258  0.0010      0.0002      0.0019  1286  6628  5740648  28224805   11546.4574
+              pockets    residents  share_residents
+egress_class                                       
+residential     12640  2491931.720            0.864
+tertiary          619   299647.679            0.104
+unclassified      488    72870.730            0.025
+primary             3     9810.517            0.003
+secondary          24     9711.870            0.003
+motorway            1       66.541            0.000

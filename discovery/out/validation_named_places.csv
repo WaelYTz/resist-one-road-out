@@ -1,0 +1,9 @@
+region,locality,known,largest_cluster_bldg,largest_cluster_exits,largest_cluster_exits_with_service_track,top_pockets,island
+northern-ca,Paradise,"Camp Fire 2018 town; several evacuation routes (Skyway, Clark, Pentz, Neal)",6171.0,8.0,8.0,"184 bldg via South Libby Road (residential), GEOID 06007002300; 94 bldg via Merrill Road (residential), GEOID 06007001900",
+northern-ca,Magalia,ridge community north of Paradise; few routes out,3267.0,3.0,5.0,"129 bldg via Nimshew Road (unclassified), GEOID 06007001702; 68 bldg via Steiffer Road (residential), GEOID 06007001704",
+northern-ca,Olympic Valley,Palisades Tahoe valley; one access road (Olympic Valley Rd),830.0,7.0,15.0,"827 bldg via Olympic Valley Road (tertiary), GEOID 06061022014",
+northern-ca,Corning,Rancho Tehama Reserve; one access road,7060.0,15.0,17.0,"1100 bldg via Rancho Tehama Road (tertiary), GEOID 06103000300; 43 bldg via Woodson Avenue (residential), GEOID 06103001101","1 bldg, 0.7 km road, category=class_filter, gap 0.2 km"
+northern-ca,Cottonwood,Lake California subdivision; one main access road,3487.0,10.0,15.0,"1441 bldg via Lake California Drive (tertiary), GEOID 06103000201; 311 bldg via Adobe Road (residential), GEOID 06089012200","0 bldg, 0.2 km road, category=class_filter, gap 0.1 km"
+eastern-wa,Stehekin,no road connection to the outside (boat / plane / trail only),,,,,"214 bldg, 29.7 km road, category=footpath_only, gap 14.6 km"
+eastern-wa,Leavenworth,Icicle Creek canyon; one road in,4707.0,7.0,9.0,"355 bldg via Stirrup Road (residential), GEOID 53007960202; 319 bldg via River Road (tertiary), GEOID 53007960202",
+eastern-wa,Quincy,Crescent Bar; one access road,3299.0,13.0,19.0,"657 bldg via Crescent Bar Road Northwest (tertiary), GEOID 53025010500; 577 bldg via Sunland Road (tertiary), GEOID 53025010700",

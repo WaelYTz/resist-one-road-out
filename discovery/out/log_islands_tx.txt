@@ -1,0 +1,21 @@
+17:02:35 south-central-tx tracts 6010
+17:02:48 drivable segments 1937009 components 5554 edge segs 3611 mid-outside 108
+17:02:48 giant n_seg 1924453 (0.9935) island comps 5452 island segs 11869 edge non-giant comps 101
+17:02:57 graph e: segs 3735901 comps 1833 missing drivable ids 0
+17:03:09 graph a: segs 4122701 comps 7302 missing drivable ids 0
+17:03:10 extended comps holding islands 67 of which edge 0
+17:03:12 island categories: {'class_filter': 5384, 'disconnected': 36, 'near_miss': 17, 'footpath_only': 15}
+17:04:35 buildings 11463801 unassigned to tract 0
+17:04:48   nearest 1000000/11463801
+17:04:57   nearest 2000000/11463801
+17:05:06   nearest 3000000/11463801
+17:05:14   nearest 4000000/11463801
+17:05:23   nearest 5000000/11463801
+17:05:32   nearest 6000000/11463801
+17:05:40   nearest 7000000/11463801
+17:05:49   nearest 8000000/11463801
+17:05:57   nearest 9000000/11463801
+17:06:07   nearest 10000000/11463801
+17:06:16   nearest 11000000/11463801
+17:06:20   nearest 11463801/11463801
+17:06:46 south-central-tx summary: {'n_bldg': 11463801.0, 'n_bldg_island': 20400.0, 'n_bldg_island_strict': 224.0, 'n_bldg_far150': 867731.0, 'n_bldg_edgecomp': 1584.0, 'est_pop_island': 35873.0, 'est_pop_island_strict': 447.0, 'pop_total': 25758569.0} elapsed 253s

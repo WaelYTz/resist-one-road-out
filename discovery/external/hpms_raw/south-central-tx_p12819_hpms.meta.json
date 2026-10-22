@@ -1,0 +1,15 @@
+{
+ "kind": "hpms",
+ "url": "https://geo.dot.gov/server/rest/services/Hosted/HPMS_FULL_TX_2024/FeatureServer/0/query",
+ "first_query": "https://geo.dot.gov/server/rest/services/Hosted/HPMS_FULL_TX_2024/FeatureServer/0/query?geometry=-95.697573%2C28.755149%2C-95.561115%2C28.879984&geometryType=esriGeometryEnvelope&inSR=4326&spatialRel=esriSpatialRelIntersects&outFields=objectid%2Cdata_year%2Croute_id%2Croutename%2Cf_system%2Cownership%2Cfacility_type%2Cstructure_type%2Ccounty_id%2Cis_restricted&returnGeometry=true&outSR=5070&maxAllowableOffset=2&geometryPrecision=0&orderByFields=objectid&resultOffset=0&resultRecordCount=2000&f=json",
+ "pages": 1,
+ "n_features": 81,
+ "wire_bytes": 6400,
+ "retrieved_utc": "2026-10-17T15:20:03+00:00",
+ "bbox": [
+  28.755149012997816,
+  -95.69757282702858,
+  28.87998360472367,
+  -95.56111497376116
+ ]
+}

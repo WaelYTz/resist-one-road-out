@@ -1,0 +1,9 @@
+17:56:06 graph d: nodes 2741215 edges 3262198 boundary-nodes 5510 bridges 553653 core nodes 2081956 (0.760) pockets 223138
+17:56:27 buildings attached to an edge 10596070 of 11463801
+17:57:49 graph e: nodes 5069044 edges 6518203 boundary-nodes 9325 bridges 1462857 core nodes 3307820 (0.653) pockets 810192
+17:59:56 pockets >=10 bldg 73082 >=50 (verifiable) 8727 bldg in pockets>=50 1027537 est pop 2013883 exit-outside excluded 2
+18:00:02 clusters 6332 with attachments 6307
+18:02:11 max-flow done (drivable)
+18:05:15 max-flow done (extended)
+18:05:22 clusters exits distribution {0: 36, 1: 361, 2: 991, 3: 1069, 4: 3875} ext {0: 25, 1: 242, 2: 812, 3: 1023, 4: 4230}
+18:05:23 south-central-tx done 591s {'n_bldg': 11463801.0, 'n_bldg_pocket50': 1027537.0, 'est_pop_pocket50': 2013883.0, 'n_bldg_cluster_1exit': 64187.0, 'est_pop_cluster_1exit': 63504.0}

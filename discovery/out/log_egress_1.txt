@@ -1,0 +1,36 @@
+16:56:47 graph d: nodes 247929 edges 282570 boundary-nodes 3027 bridges 60108 core nodes 182512 (0.736) pockets 19898
+16:56:48 buildings attached to an edge 959950 of 1081346
+16:56:53 graph e: nodes 501210 edges 612632 boundary-nodes 5271 bridges 179827 core nodes 291143 (0.581) pockets 86784
+16:56:57 pockets >=10 bldg 7487 >=50 (verifiable) 701 bldg in pockets>=50 74266 est pop 92992 exit-outside excluded 2
+16:56:57 clusters 1039 with attachments 1036
+16:57:03 max-flow done (drivable)
+16:57:16 max-flow done (extended)
+16:57:17 clusters exits distribution {0: 4, 1: 44, 2: 212, 3: 224, 4: 555} ext {0: 3, 1: 22, 2: 139, 3: 179, 4: 696}
+16:57:17 eastern-wa done 32s {'n_bldg': 1081345.0, 'n_bldg_pocket50': 74266.0, 'est_pop_pocket50': 92992.0, 'n_bldg_cluster_1exit': 5750.0, 'est_pop_cluster_1exit': 4825.0}
+16:57:21 graph d: nodes 305423 edges 344022 boundary-nodes 5029 bridges 89942 core nodes 204757 (0.670) pockets 32169
+16:57:22 buildings attached to an edge 1083937 of 1164724
+16:57:28 graph e: nodes 615999 edges 750809 boundary-nodes 8675 bridges 221505 core nodes 355792 (0.578) pockets 108947
+16:57:35 pockets >=10 bldg 10797 >=50 (verifiable) 960 bldg in pockets>=50 100149 est pop 181631 exit-outside excluded 1
+16:57:36 clusters 755 with attachments 754
+16:57:41 max-flow done (drivable)
+16:57:54 max-flow done (extended)
+16:57:54 clusters exits distribution {0: 2, 1: 44, 2: 160, 3: 172, 4: 377} ext {0: 1, 1: 16, 2: 77, 3: 147, 4: 514}
+16:57:54 northern-ca done 36s {'n_bldg': 1164723.0, 'n_bldg_pocket50': 100149.0, 'est_pop_pocket50': 181631.0, 'n_bldg_cluster_1exit': 7377.0, 'est_pop_cluster_1exit': 9182.0}
+16:58:02 graph d: nodes 760668 edges 889953 boundary-nodes 1454 bridges 174519 core nodes 561737 (0.738) pockets 74219
+16:58:04 buildings attached to an edge 2315524 of 2551694
+16:58:14 graph e: nodes 1308431 edges 1623001 boundary-nodes 1993 bridges 468193 core nodes 760610 (0.581) pockets 274432
+16:58:28 pockets >=10 bldg 15631 >=50 (verifiable) 1313 bldg in pockets>=50 130025 est pop 189441 exit-outside excluded 0
+16:58:29 clusters 2339 with attachments 2335
+16:59:09 max-flow done (drivable)
+17:00:36 max-flow done (extended)
+17:00:36 clusters exits distribution {0: 4, 1: 87, 2: 220, 3: 333, 4: 1695} ext {0: 4, 1: 71, 2: 197, 3: 296, 4: 1771}
+17:00:37 eastern-ok done 161s {'n_bldg': 2551694.0, 'n_bldg_pocket50': 130025.0, 'est_pop_pocket50': 189441.0, 'n_bldg_cluster_1exit': 14617.0, 'est_pop_cluster_1exit': 16004.0}
+17:00:44 graph d: nodes 731430 edges 856707 boundary-nodes 1851 bridges 156601 core nodes 543546 (0.743) pockets 61491
+17:00:47 buildings attached to an edge 2765648 of 2908224
+17:00:58 graph e: nodes 1402839 edges 1810383 boundary-nodes 3942 bridges 342868 core nodes 972713 (0.693) pockets 187321
+17:01:14 pockets >=10 bldg 19309 >=50 (verifiable) 2074 bldg in pockets>=50 230908 est pop 406092 exit-outside excluded 2
+17:01:14 clusters 970 with attachments 950
+17:01:32 max-flow done (drivable)
+17:02:17 max-flow done (extended)
+17:02:18 clusters exits distribution {0: 30, 1: 117, 2: 250, 3: 184, 4: 389} ext {0: 20, 1: 50, 2: 139, 3: 157, 4: 604}
+17:02:18 maricopa-az done 100s {'n_bldg': 2908224.0, 'n_bldg_pocket50': 230908.0, 'est_pop_pocket50': 406092.0, 'n_bldg_cluster_1exit': 23103.0, 'est_pop_cluster_1exit': 23382.0}
