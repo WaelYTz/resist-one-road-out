@@ -390,6 +390,9 @@ def main(region: str):
                 "n_bldg_cluster_1exit", "n_bldg_cluster_le2exit", "n_bldg_cluster_1exit_ext", "n_bldg_cluster_unmapped"]:
         T[col.replace("n_bldg", "est_pop")] = T[col] * per_b
     T.to_parquet(OUT / f"{region}_tract_egress.parquet", index=False)
+    # per-building pocket size (0 = not in a pocket), in the order of cache/<region>_bldg.npz: lets a point dataset
+    # (e.g. CAL FIRE damage inspections, 19_dins.py) be matched to the nearest building and its pocket
+    np.savez_compressed(CACHE / f"{region}_bldg_pocket.npz", bps=bps.astype(np.int32), bpocket=bpocket.astype(np.int32))
     log(region, "done", f"{time.time() - T0:.0f}s",
         T[["n_bldg", "n_bldg_pocket50", "est_pop_pocket50", "n_bldg_cluster_1exit", "est_pop_cluster_1exit"]].sum().round().to_dict())
 

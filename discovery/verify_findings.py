@@ -73,6 +73,11 @@ def main():
     f = fh[(fh.exposure == "burned15") & (fh.whp_q == "MH pooled over WHP quartiles")].iloc[0]
     check("burned since 2015: pocket vs same-hazard residents", f.ratio, 1.15, 2, "§4.13")
 
+    # §4.13b: CAL FIRE damage inspections (external), destroyed share pocket vs other, same incident and tract
+    dn = pd.read_csv(OUT / "dins_pockets.csv")
+    r = dn[(dn.subset == "all structures") & (dn.measure == "mh_rr_incident_tract")].iloc[0]
+    check("DINS: destroyed, pocket vs other, same incident x tract (RR)", r.value, 0.89, 2, "§4.13b")
+
     # §5b: action list
     al = pd.read_csv(OUT / "action_list_full.csv", dtype={"county_fips": str})
     check("action list: high-hazard single-exit pockets", len(al), 5095, 0, "§5b")

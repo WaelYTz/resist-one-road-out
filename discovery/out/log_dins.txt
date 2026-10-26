@@ -1,0 +1,73 @@
+23:23:49   DINS records 2000
+23:23:51   DINS records 4000
+23:23:54   DINS records 6000
+23:23:56   DINS records 8000
+23:23:58   DINS records 10000
+23:24:00   DINS records 12000
+23:24:02   DINS records 14000
+23:24:04   DINS records 16000
+23:24:06   DINS records 18000
+23:24:08   DINS records 20000
+23:24:10   DINS records 22000
+23:24:12   DINS records 24000
+23:24:14   DINS records 26000
+23:24:16   DINS records 28000
+23:24:18   DINS records 30000
+23:24:20   DINS records 32000
+23:24:22   DINS records 34000
+23:24:25   DINS records 36000
+23:24:27   DINS records 38000
+23:24:29   DINS records 40000
+23:24:31   DINS records 42000
+23:24:33   DINS records 44000
+23:24:35   DINS records 46000
+23:24:37   DINS records 48000
+23:24:39   DINS records 50000
+23:24:41   DINS records 52000
+23:24:43   DINS records 54000
+23:24:45   DINS records 56000
+23:24:47   DINS records 58000
+23:24:49   DINS records 58376
+23:24:49 DINS records (2018+, bounding box) 58376
+23:24:49 inside the AOI, damage known 44382
+23:24:52 graph d: nodes 305423 edges 344022 boundary-nodes 5029 bridges 89942 core nodes 204757 (0.670) pockets 32169
+23:24:54 attached to a drivable segment 39180 of 44382 | destroyed share attached / not 0.655 0.468
+               subset                measure      value  ci_lo  ci_hi  n_structures  n_incidents  n_cells
+       all structures               crude_rr     0.6666 0.4641 0.8873         39180          149      221
+       all structures         mh_rr_incident     0.9073 0.6874 1.0794         39180          149      221
+       all structures   mh_rr_incident_tract     0.8937 0.6862 1.0597         39180          149      221
+       all structures destroyed_share_pocket     0.4570    NaN    NaN         39180          149      221
+       all structures  destroyed_share_other     0.6856    NaN    NaN         39180          149      221
+       all structures               n_pocket  5282.0000    NaN    NaN         39180          149      221
+       all structures                n_other 33898.0000    NaN    NaN         39180          149      221
+          residential               crude_rr     0.6604 0.4495 0.8655         26980          133      200
+          residential         mh_rr_incident     0.8543 0.6128 1.0257         26980          133      200
+          residential   mh_rr_incident_tract     0.8463 0.6264 1.0032         26980          133      200
+          residential destroyed_share_pocket     0.4680    NaN    NaN         26980          133      200
+          residential  destroyed_share_other     0.7087    NaN    NaN         26980          133      200
+          residential               n_pocket  3639.0000    NaN    NaN         26980          133      200
+          residential                n_other 23341.0000    NaN    NaN         26980          133      200
+without the Camp Fire               crude_rr     0.7824 0.5559 1.1232         16323          148      206
+without the Camp Fire         mh_rr_incident     1.0671 0.7522 1.3808         16323          148      206
+without the Camp Fire   mh_rr_incident_tract     0.9856 0.6657 1.3216         16323          148      206
+without the Camp Fire destroyed_share_pocket     0.3662    NaN    NaN         16323          148      206
+without the Camp Fire  destroyed_share_other     0.4681    NaN    NaN         16323          148      206
+without the Camp Fire               n_pocket  3659.0000    NaN    NaN         16323          148      206
+without the Camp Fire                n_other 12664.0000    NaN    NaN         16323          148      206
+                                n  n_pocket  destroyed_pocket  destroyed_other
+incident                                                                      
+Camp 2018                 22857.0    1623.0             0.662            0.815
+Dixie 2021                 3365.0     774.0             0.351            0.354
+North Complex 2020         2496.0      11.0             0.273            0.738
+Carr 2018                  1738.0     335.0             0.827            0.866
+Park 2024                  1455.0     885.0             0.345            0.098
+LNU Lightning Cmplx 2020    958.0     652.0             0.252            0.356
+Fawn 2021                   685.0     141.0             0.149            0.267
+Mosquito 2022               538.0     142.0             0.155            0.086
+Kincade 2019                417.0      38.0             0.000            0.303
+Zogg 2020                   411.0     132.0             0.538            0.283
+Slater 2020                 383.0      24.0             0.917            0.811
+Beckwourth 2021             350.0       0.0               NaN            0.243
+River 2021                  346.0      42.0             0.500            0.349
+Mill 2022                   296.0       0.0               NaN            0.389
+Caldor 2021                 290.0       0.0               NaN            0.293

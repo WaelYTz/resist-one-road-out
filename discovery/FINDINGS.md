@@ -389,6 +389,29 @@ Exposure is measured at tract level: the tract had wildfire burned area in the p
 - **Reading.** Single-egress pockets are not only in high-hazard terrain: their residents also live somewhat more often than same-hazard neighbours in tracts that actually burned in the last decade.
 - **Limits.** The unit is the tract, so "the tract burned" does not mean "the pocket burned", and large rural tracts inflate exposure for both groups.
 
+### 4.13b Were pocket homes destroyed more often? A check against CAL FIRE damage inspections (external data, northern-ca)
+
+The CAL FIRE Damage Inspection database (DINS, public ArcGIS service `POSTFIRE_MASTER_DATA_SHARE`) records every inspected structure, damaged or not, for incidents since 2018. We fixed the test on 26 Oct before downloading the data (`19_dins.py`):
+
+- **Records.** 2018+ incidents in the northern-ca AOI, with damage known (`Inaccessible` dropped): 44,382 structures.
+- **Exposure.** Each structure is attached to its nearest drivable Overture segment (≤ 150 m), as buildings are in §4.1, and counts as exposed if that segment lies in a pocket of ≥ 50 buildings. We attach to roads, not buildings, because most destroyed structures are no longer drawn in Overture; matching them to buildings would drop them selectively.
+- **Outcome.** `Destroyed (>50%)`.
+- **Estimate.** Mantel–Haenszel risk ratio within the same incident, and within the same incident and tract. CIs come from a cluster bootstrap over incident × tract cells (B = 2000, seed 20261026).
+
+39,180 structures (88%, in 149 incidents) attach to a segment, and 5,282 of them lie in pockets.
+
+| Destroyed, pocket vs other structures | Risk ratio (95% CI) | Structures |
+|---|---|---|
+| Within the same incident | 0.91 (0.69–1.08) | 39,180 |
+| Within the same incident and tract | 0.89 (0.69–1.06) | 39,180 |
+| Residential structures, same incident and tract | 0.85 (0.63–1.00) | 26,980 |
+| Without the Camp Fire, same incident and tract | 0.99 (0.67–1.32) | 16,323 |
+
+- **No excess destruction in pockets.** Once a fire reached a neighbourhood, a single exit did not predict whether a structure was lost. The point estimates are slightly below 1, and the CIs include 1.
+- **Fires differ.** Camp 2018: 66% of pocket structures destroyed against 82% of the others. Park 2024: 35% against 10%. Zogg 2020: 54% against 28%. Dixie 2021: 35% against 35% (`out/dins_by_incident.csv`).
+- **Reading.** Structure loss is driven by fire behaviour, embers and the building itself. The risk a single exit carries is to people, who can be cut off while evacuating, and damage inspections do not record that. We therefore make no claim that pocket homes burn more. The claim stays the one in §1: where hazard is highest, more residents depend on one segment to leave.
+- **Limits.** Structures more than 150 m from a drivable road (12%; 47% of them destroyed, against 66% of attached structures) are excluded. Rural tracts are large, so the within-tract comparison is coarse (221 incident × tract cells). The Camp Fire holds 58% of the structures. DINS covers inspected areas only.
+
 ---
 
 ## 5. Top named communities
@@ -480,12 +503,14 @@ Highest-hazard (WHP Q4) pockets that **stay single-egress when service/track roa
 **Provenance.**
 - Source: the public challenge bucket `s3://us-west-2.opendata.source.coop/humane-intelligence/bias-bounty-mapping-equity-challenge/` (see `data/README.md`).
 - Local copies are timestamped 2026-08-26 (eastern-ok, maricopa-az, northern-ca, south-central-tx reference layers), 2026-09-25 (eastern-wa) and 2026-08-12/26 (strata).
-- **Two external sources**, both public:
+- **External sources**, all public (the FHWA HPMS, ADOT and USFS road inventories are listed in §4.10):
   - OpenStreetMap through Overpass, for validation only (endpoints, dates and licence in §4.10).
   - U.S. Census Bureau, American Community Survey 2020–2024 5-year estimates (release `acs2024_5yr`), tables B08201, C16002 and B01001, tract level, for the 9,767 populated tracts (§4.11).
     - Retrieved 2026-10-17 15:11Z to 15:13Z (UTC) through the Census Reporter API (https://api.censusreporter.org/1.0/data/show/acs2024_5yr), which serves the Bureau's estimates and margins of error. The Bureau's own API (api.census.gov) now redirects requests without a key, so it was not used.
     - 49 requests of up to 200 tract ids each, 5.6 MB gzip on the wire (33.5 MB JSON). Cached in `discovery/external/acs/`, with each request's URL, UTC retrieval time and size in a `.meta.json`.
     - Public domain (U.S. Government work, 17 U.S.C. §105).
+  - CAL FIRE Damage Inspection (DINS) database, `https://services1.arcgis.com/jUJYIo9tSA7EHvfZ/ArcGIS/rest/services/POSTFIRE_MASTER_DATA_SHARE/FeatureServer/0`, published openly by CAL FIRE (also listed on data.ca.gov and data.gov), for the damage check only (§4.13b).
+    - Retrieved 2026-10-26 22:24Z (UTC): 30 paged queries (incidents since 2018 in the northern-ca bounding box), 58,376 records. Fields: damage class, incident name and start date, structure category, latitude and longitude. No addresses or parcel numbers. Cached as `discovery/external/dins/northern-ca_2018on.csv` (5.4 MB).
   - No TIGER, Microsoft buildings, HIFLD or CBP data.
 
 **Environment.** Python 3.11.9, duckdb 1.5.6 (spatial extension), shapely 2.1.2, pyproj 3.7.2, scipy 1.17.1, numpy 2.4.6, pandas 3.0.6. Development machine: Windows 11, 12 logical CPUs, 16 GB RAM.
@@ -515,14 +540,15 @@ python discovery/14_adjusted.py                       # adjusted and within-coun
 python discovery/15_full_action_list.py               # full action list and per-county totals (§5b; ~2 s)
 python discovery/17_acs_evacuation.py --offline       # ACS no-vehicle / limited-English / 65+ (§4.11; ~35 s)
 python discovery/18_official_check.py --offline       # FHWA HPMS 2024 / ADOT ATIS / USFS ownership check (§4.10)
-python discovery/verify_findings.py                   # recomputes the headline numbers from discovery/out: PASS 26/26 (~3 s)
+python discovery/19_dins.py --offline                 # CAL FIRE damage inspections vs pockets (§4.13b; cached CSV)
+python discovery/verify_findings.py                   # recomputes the headline numbers from discovery/out: PASS 27/27 (~3 s)
 ```
 
 The cached Overpass responses are in `discovery/external/osm_raw/`. To re-query Overpass instead, run `07_external_osm.py` without `--offline` (network needed; results then reflect the OSM state at query time). The cached ACS responses are in `discovery/external/acs/`. Without `--offline`, `17_acs_evacuation.py` downloads only the batches that are missing (5.6 MB for all 49).
 
 **Determinism.**
 - Bootstrap: seed 20261012, B = 2000.
-- County-block bootstraps: numpy `default_rng(20261014)` (`14_adjusted.py`) and `default_rng(20261018)` (`17_acs_evacuation.py`), B = 2000.
+- County-block bootstraps: numpy `default_rng(20261014)` (`14_adjusted.py`) `default_rng(20261018)` (`17_acs_evacuation.py`) and `default_rng(20261026)` (`19_dins.py`, cells = incident × tract), B = 2000.
 - OSM random sample: numpy `default_rng(20261013)`.
 - Connector ties are broken by connector index. No other randomness is involved; the residual one-or-two bridge difference between runs is described in §4.5.
 
@@ -555,6 +581,7 @@ The cached Overpass responses are in `discovery/external/osm_raw/`. To re-query 
 | `acs_evacuation.csv` | ACS no-vehicle, limited-English and 65+ shares for pocket, action-list and all residents, with ratios, differences and county-block CIs, by scope and region (§4.11) |
 | `coverage_proxy_tracts.csv`, `coverage_proxy_summary.csv` | Road km by class per tract, and medians by pocket share (§4.12) |
 | `fire_history.csv`, `fire_history_named.csv`, `fire_history_pocket_counts.csv` | Wildfire-history comparisons (§4.13) |
+| `dins_pockets.csv`, `dins_by_incident.csv`, `log_dins.txt` | CAL FIRE damage inspections vs pockets (§4.13b) |
 | `action_list.csv`, `action_list.md` | Per-county action list (§5b) |
 | `action_list_full.csv` (+ `.geojson`), `action_list_by_county.csv` | All 5,095 WHP-Q4 pockets still single-egress with service/track added, as rows and WGS84 points, and per-county totals (§5b) |
 | `fig_whp_by_region.csv`, `../figs/*.png` | Figure data and figures |

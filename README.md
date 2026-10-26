@@ -26,7 +26,7 @@ counts, so it cannot see this.
 
 ```bash
 pip install pandas pyarrow
-python discovery/verify_findings.py      # recomputes the 26 headline numbers from discovery/out: PASS 26/26
+python discovery/verify_findings.py      # recomputes the 27 headline numbers from discovery/out: PASS 27/27
 ```
 
 ## Reproduce
